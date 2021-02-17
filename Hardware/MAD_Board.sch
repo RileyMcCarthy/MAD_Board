@@ -16,97 +16,6 @@ $EndDescr
 NoConn ~ 9350 1350
 Text Notes 10850 1000 0    60   ~ 0
 Holes
-$Comp
-L Connector_Generic:Conn_01x01 P8
-U 1 1 56D70B71
-P 10550 650
-F 0 "P8" V 10650 650 31  0000 C CNN
-F 1 "CONN_01X01" V 10650 650 50  0001 C CNN
-F 2 "Socket_Arduino_Mega:Arduino_1pin" H 10550 650 50  0001 C CNN
-F 3 "" H 10550 650 50  0000 C CNN
-F 4 "DIP" H 10550 650 50  0001 C CNN "Notes"
-F 5 "Not available for assembly" H 10550 650 50  0001 C CNN "Assembly"
-	1    10550 650 
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 P9
-U 1 1 56D70C9B
-P 10650 650
-F 0 "P9" V 10750 650 31  0000 C CNN
-F 1 "CONN_01X01" V 10750 650 50  0001 C CNN
-F 2 "Socket_Arduino_Mega:Arduino_1pin" H 10650 650 50  0001 C CNN
-F 3 "" H 10650 650 50  0000 C CNN
-F 4 "DIP" H 10650 650 50  0001 C CNN "Notes"
-F 5 "Not available for assembly" H 10650 650 50  0001 C CNN "Assembly"
-	1    10650 650 
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 P10
-U 1 1 56D70CE6
-P 10750 650
-F 0 "P10" V 10850 650 31  0000 C CNN
-F 1 "CONN_01X01" V 10850 650 50  0001 C CNN
-F 2 "Socket_Arduino_Mega:Arduino_1pin" H 10750 650 50  0001 C CNN
-F 3 "" H 10750 650 50  0000 C CNN
-F 4 "DIP" H 10750 650 50  0001 C CNN "Notes"
-F 5 "Not available for assembly" H 10750 650 50  0001 C CNN "Assembly"
-	1    10750 650 
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 P11
-U 1 1 56D70D2C
-P 10850 650
-F 0 "P11" V 10950 650 31  0000 C CNN
-F 1 "CONN_01X01" V 10950 650 50  0001 C CNN
-F 2 "Socket_Arduino_Mega:Arduino_1pin" H 10850 650 50  0001 C CNN
-F 3 "" H 10850 650 50  0000 C CNN
-F 4 "DIP" H 10850 650 50  0001 C CNN "Notes"
-F 5 "Not available for assembly" H 10850 650 50  0001 C CNN "Assembly"
-	1    10850 650 
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 P12
-U 1 1 56D711A2
-P 10950 650
-F 0 "P12" V 11050 650 31  0000 C CNN
-F 1 "CONN_01X01" V 11050 650 50  0001 C CNN
-F 2 "Socket_Arduino_Mega:Arduino_1pin" H 10950 650 50  0001 C CNN
-F 3 "" H 10950 650 50  0000 C CNN
-F 4 "DIP" H 10950 650 50  0001 C CNN "Notes"
-F 5 "Not available for assembly" H 10950 650 50  0001 C CNN "Assembly"
-	1    10950 650 
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 P13
-U 1 1 56D711F0
-P 11050 650
-F 0 "P13" V 11150 650 31  0000 C CNN
-F 1 "CONN_01X01" V 11150 650 50  0001 C CNN
-F 2 "Socket_Arduino_Mega:Arduino_1pin" H 11050 650 50  0001 C CNN
-F 3 "" H 11050 650 50  0000 C CNN
-F 4 "DIP" H 11050 650 50  0001 C CNN "Notes"
-F 5 "Not available for assembly" H 11050 650 50  0001 C CNN "Assembly"
-	1    11050 650 
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x08 P2
-U 1 1 56D71773
-P 9550 1650
-F 0 "P2" H 9550 2050 50  0000 C CNN
-F 1 "Power" V 9650 1650 50  0001 C CNN
-F 2 "Socket_Arduino_Mega:Socket_Strip_Arduino_1x08" H 9550 1650 50  0001 C CNN
-F 3 "" H 9550 1650 50  0000 C CNN
-F 4 "DIP" H 9550 1650 50  0001 C CNN "Notes"
-F 5 "Not available for assembly" H 9550 1650 50  0001 C CNN "Assembly"
-	1    9550 1650
-	1    0    0    -1  
-$EndComp
 Text Notes 9650 1350 0    60   ~ 0
 1
 $Comp
@@ -143,19 +52,6 @@ F 3 "" H 9250 2150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x10 P5
-U 1 1 56D72368
-P 9950 1550
-F 0 "P5" H 9950 2050 50  0000 C CNN
-F 1 "PWM" V 10050 1550 50  0001 C CNN
-F 2 "Socket_Arduino_Mega:Socket_Strip_Arduino_1x10" H 9950 1550 50  0001 C CNN
-F 3 "" H 9950 1550 50  0000 C CNN
-F 4 "DIP" H 9950 1550 50  0001 C CNN "Notes"
-F 5 "Not available for assembly" H 9950 1550 50  0001 C CNN "Assembly"
-	1    9950 1550
-	-1   0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR04
 U 1 1 56D72A3D
 P 10250 2150
@@ -165,58 +61,6 @@ F 2 "" H 10250 2150 50  0000 C CNN
 F 3 "" H 10250 2150 50  0000 C CNN
 	1    10250 2150
 	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x08 P3
-U 1 1 56D72F1C
-P 9550 2750
-F 0 "P3" H 9550 3150 50  0000 C CNN
-F 1 "Analog" V 9650 2750 50  0001 C CNN
-F 2 "Socket_Arduino_Mega:Socket_Strip_Arduino_1x08" H 9550 2750 50  0001 C CNN
-F 3 "" H 9550 2750 50  0000 C CNN
-F 4 "DIP" H 9550 2750 50  0001 C CNN "Notes"
-F 5 "Not available for assembly" H 9550 2750 50  0001 C CNN "Assembly"
-	1    9550 2750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x08 P6
-U 1 1 56D734D0
-P 9950 2750
-F 0 "P6" H 9950 3150 50  0000 C CNN
-F 1 "PWM" V 10050 2750 50  0001 C CNN
-F 2 "Socket_Arduino_Mega:Socket_Strip_Arduino_1x08" H 9950 2750 50  0001 C CNN
-F 3 "" H 9950 2750 50  0000 C CNN
-F 4 "DIP" H 9950 2750 50  0001 C CNN "Notes"
-F 5 "Not available for assembly" H 9950 2750 50  0001 C CNN "Assembly"
-	1    9950 2750
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x08 P4
-U 1 1 56D73A0E
-P 9550 3700
-F 0 "P4" H 9550 4100 50  0000 C CNN
-F 1 "Analog" V 9650 3700 50  0001 C CNN
-F 2 "Socket_Arduino_Mega:Socket_Strip_Arduino_1x08" H 9550 3700 50  0001 C CNN
-F 3 "" H 9550 3700 50  0000 C CNN
-F 4 "DIP" H 9550 3700 50  0001 C CNN "Notes"
-F 5 "Not available for assembly" H 9550 3700 50  0001 C CNN "Assembly"
-	1    9550 3700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x08 P7
-U 1 1 56D73F2C
-P 9950 3700
-F 0 "P7" H 9950 4100 50  0000 C CNN
-F 1 "Communication" V 10050 3700 50  0001 C CNN
-F 2 "Socket_Arduino_Mega:Socket_Strip_Arduino_1x08" H 9950 3700 50  0001 C CNN
-F 3 "" H 9950 3700 50  0000 C CNN
-F 4 "DIP" H 9950 3700 50  0001 C CNN "Notes"
-F 5 "Not available for assembly" H 9950 3700 50  0001 C CNN "Assembly"
-	1    9950 3700
-	-1   0    0    -1  
 $EndComp
 Wire Notes Line
 	8650 650  10150 650 
@@ -277,19 +121,6 @@ Wire Wire Line
 Connection ~ 1850 2450
 Wire Wire Line
 	1850 2450 1950 2450
-$Comp
-L MCU_Parallax:P8X32A-Q44 U1
-U 1 1 60024287
-P 1850 3850
-F 0 "U1" H 2200 4850 50  0000 C CNN
-F 1 "P8X32A-Q44" H 1850 3850 50  0000 C CNN
-F 2 "Package_QFP:LQFP-44_10x10mm_P0.8mm" H 1850 5050 50  0001 C CNN
-F 3 "https://www.parallax.com/sites/default/files/downloads/P8X32A-Propeller-Datasheet-v1.4.0_0.pdf" H 1850 3850 50  0001 C CNN
-F 4 "Not in LSCS" H 1850 3850 50  0001 C CNN "Notes"
-F 5 "Not available for assembly" H 1850 3850 50  0001 C CNN "Assembly"
-	1    1850 3850
-	1    0    0    -1  
-$EndComp
 Connection ~ 1950 2550
 Connection ~ 1850 2600
 Connection ~ 1750 2650
@@ -331,21 +162,6 @@ Wire Wire Line
 Connection ~ 3600 3250
 Wire Wire Line
 	3600 3100 3600 3250
-$Comp
-L Device:C C3
-U 1 1 6005100A
-P 3600 2950
-F 0 "C3" H 3715 2996 50  0000 L CNN
-F 1 "0.1uF" H 3715 2905 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 3638 2800 50  0001 C CNN
-F 3 "~" H 3600 2950 50  0001 C CNN
-F 4 "C14663" H 3600 2950 50  0001 C CNN "LSCS Part #"
-F 5 "Assembly Ready" H 3600 2950 50  0001 C CNN "Assembly"
-F 6 "C14663" H 3600 2950 50  0001 C CNN "LCSC Part #"
-F 7 "C14663" H 3600 2950 50  0001 C CNN "LCSC"
-	1    3600 2950
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3250 3250 3600 3250
 Connection ~ 3250 3250
@@ -369,66 +185,6 @@ Wire Wire Line
 	2900 3250 3250 3250
 Wire Wire Line
 	2900 3100 2900 3250
-$Comp
-L Device:C C4
-U 1 1 60051D54
-P 4000 2950
-F 0 "C4" H 4115 2996 50  0000 L CNN
-F 1 "0.1uF" H 4115 2905 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 4038 2800 50  0001 C CNN
-F 3 "~" H 4000 2950 50  0001 C CNN
-F 4 "C14663" H 4000 2950 50  0001 C CNN "LSCS Part #"
-F 5 "Assembly Ready" H 4000 2950 50  0001 C CNN "Assembly"
-F 6 "C14663" H 4000 2950 50  0001 C CNN "LCSC Part #"
-F 7 "C14663" H 4000 2950 50  0001 C CNN "LCSC"
-	1    4000 2950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C2
-U 1 1 60050504
-P 3250 2950
-F 0 "C2" H 3365 2996 50  0000 L CNN
-F 1 "0.1uF" H 3365 2905 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 3288 2800 50  0001 C CNN
-F 3 "~" H 3250 2950 50  0001 C CNN
-F 4 "C14663" H 3250 2950 50  0001 C CNN "LSCS Part #"
-F 5 "Assembly Ready" H 3250 2950 50  0001 C CNN "Assembly"
-F 6 "C14663" H 3250 2950 50  0001 C CNN "LCSC Part #"
-F 7 "C14663" H 3250 2950 50  0001 C CNN "LCSC"
-	1    3250 2950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C1
-U 1 1 6004F8D8
-P 2900 2950
-F 0 "C1" H 3015 2996 50  0000 L CNN
-F 1 "0.1uF" H 3015 2905 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 2938 2800 50  0001 C CNN
-F 3 "~" H 2900 2950 50  0001 C CNN
-F 4 "C14663" H 2900 2950 50  0001 C CNN "LSCS Part #"
-F 5 "Assembly Ready" H 2900 2950 50  0001 C CNN "Assembly"
-F 6 "C14663" H 2900 2950 50  0001 C CNN "LCSC Part #"
-F 7 "C14663" H 2900 2950 50  0001 C CNN "LCSC"
-	1    2900 2950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:Crystal Crystal1
-U 1 1 600A0872
-P 3350 3750
-F 0 "Crystal1" V 3396 3619 50  0000 R CNN
-F 1 "5MHz" V 3305 3619 50  0000 R CNN
-F 2 "Crystal:Crystal_HC49-U_Vertical" H 3350 3750 50  0001 C CNN
-F 3 "~" H 3350 3750 50  0001 C CNN
-F 4 "Not available for assembly" H 3350 3750 50  0001 C CNN "Assembly"
-F 5 "C2198" H 3350 3750 50  0001 C CNN "LSCS Part #"
-F 6 "C2198" H 3350 3750 50  0001 C CNN "LCSC Part #"
-F 7 "C2198" H 3350 3750 50  0001 C CNN "LCSC"
-	1    3350 3750
-	0    -1   -1   0   
-$EndComp
 Text GLabel 2550 2950 2    50   Input ~ 0
 X1
 Text GLabel 2550 3050 2    50   Input ~ 0
@@ -543,38 +299,6 @@ F 3 "" H 2050 5750 50  0001 C CNN
 	1    2050 5750
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:R R2
-U 1 1 600C0127
-P 1700 6000
-F 0 "R2" H 1770 6046 50  0000 L CNN
-F 1 "10k" H 1770 5955 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 1630 6000 50  0001 C CNN
-F 3 "~" H 1700 6000 50  0001 C CNN
-F 4 "C25804" H 1700 6000 50  0001 C CNN "LSCS Part #"
-F 5 "" H 1700 6000 50  0001 C CNN "Notes"
-F 6 "Assembly Ready" H 1700 6000 50  0001 C CNN "Assembly"
-F 7 "C25804" H 1700 6000 50  0001 C CNN "LCSC Part #"
-F 8 "C25804" H 1700 6000 50  0001 C CNN "LCSC"
-	1    1700 6000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R3
-U 1 1 600C14D9
-P 2050 6000
-F 0 "R3" H 2120 6046 50  0000 L CNN
-F 1 "10k" H 2120 5955 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 1980 6000 50  0001 C CNN
-F 3 "~" H 2050 6000 50  0001 C CNN
-F 4 "C25804" H 2050 6000 50  0001 C CNN "LSCS Part #"
-F 5 "" H 2050 6000 50  0001 C CNN "Notes"
-F 6 "Assembly Ready" H 2050 6000 50  0001 C CNN "Assembly"
-F 7 "C25804" H 2050 6000 50  0001 C CNN "LCSC Part #"
-F 8 "C25804" H 2050 6000 50  0001 C CNN "LCSC"
-	1    2050 6000
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1700 5750 1700 5850
 Wire Wire Line
@@ -597,22 +321,6 @@ Wire Wire Line
 	1500 6200 2800 6200
 Wire Wire Line
 	2800 6200 2800 6150
-$Comp
-L Device:C C10
-U 1 1 600EC2B5
-P 2800 6350
-F 0 "C10" H 2915 6396 50  0000 L CNN
-F 1 "1uF" H 2915 6305 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 2838 6200 50  0001 C CNN
-F 3 "~" H 2800 6350 50  0001 C CNN
-F 4 "C15849" H 2800 6350 50  0001 C CNN "LSCS Part #"
-F 5 "" H 2800 6350 50  0001 C CNN "Notes"
-F 6 "Assembly Ready" H 2800 6350 50  0001 C CNN "Assembly"
-F 7 "C15849" H 2800 6350 50  0001 C CNN "LCSC Part #"
-F 8 "C15849" H 2800 6350 50  0001 C CNN "LCSC"
-	1    2800 6350
-	1    0    0    -1  
-$EndComp
 Connection ~ 2800 6200
 Wire Wire Line
 	2800 6500 2800 6600
@@ -662,20 +370,6 @@ Text GLabel 10800 4000 2    50   Input ~ 0
 SDA
 Text GLabel 10800 4100 2    50   Input ~ 0
 SCL
-Text GLabel 10750 3150 2    50   Input ~ 0
-P0
-Text GLabel 10750 3050 2    50   Input ~ 0
-P1
-Text GLabel 10750 2950 2    50   Input ~ 0
-P2
-Text GLabel 10750 2850 2    50   Input ~ 0
-P3
-Text GLabel 10750 2750 2    50   Input ~ 0
-P4
-Text GLabel 10750 2650 2    50   Input ~ 0
-P5
-Text GLabel 10750 2550 2    50   Input ~ 0
-P6
 Text GLabel 10750 2450 2    50   Input ~ 0
 P7
 Text GLabel 10750 2050 2    50   Input ~ 0
@@ -684,16 +378,6 @@ Text GLabel 10750 1950 2    50   Input ~ 0
 P9
 Text GLabel 10750 1850 2    50   Input ~ 0
 P10
-Text GLabel 10750 1750 2    50   Input ~ 0
-P11
-Text GLabel 10750 1650 2    50   Input ~ 0
-P12
-Text GLabel 10750 1550 2    50   Input ~ 0
-P13
-Text GLabel 10750 1250 2    50   Input ~ 0
-P14
-Text GLabel 10750 1150 2    50   Input ~ 0
-P15
 Text GLabel 2300 6400 2    50   Input ~ 0
 SCL
 Text GLabel 2250 6500 2    50   Input ~ 0
@@ -741,89 +425,10 @@ Text GLabel 7900 3700 2    50   Input ~ 0
 TX
 Text GLabel 7900 3600 2    50   Input ~ 0
 RX
-$Comp
-L Device:LED D1
-U 1 1 60262642
-P 7750 4500
-F 0 "D1" H 7743 4717 50  0000 C CNN
-F 1 "BLUE" H 7743 4626 50  0000 C CNN
-F 2 "LED_SMD:LED_0603_1608Metric" H 7750 4500 50  0001 C CNN
-F 3 "~" H 7750 4500 50  0001 C CNN
-F 4 "C72041" H 7750 4500 50  0001 C CNN "LSCS Part #"
-F 5 "" H 7750 4500 50  0001 C CNN "Notes"
-F 6 "Assembly Ready" H 7750 4500 50  0001 C CNN "Assembly"
-F 7 "C72041" H 7750 4500 50  0001 C CNN "LCSC Part #"
-F 8 "C72041" H 7750 4500 50  0001 C CNN "LCSC"
-	1    7750 4500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:LED D2
-U 1 1 602643B2
-P 7750 4700
-F 0 "D2" H 7750 4500 50  0000 C CNN
-F 1 "RED" H 7750 4600 50  0000 C CNN
-F 2 "LED_SMD:LED_0603_1608Metric" H 7750 4700 50  0001 C CNN
-F 3 "~" H 7750 4700 50  0001 C CNN
-F 4 "C2286" H 7750 4700 50  0001 C CNN "LSCS Part #"
-F 5 "" H 7750 4700 50  0001 C CNN "Notes"
-F 6 "Assembly Ready" H 7750 4700 50  0001 C CNN "Assembly"
-F 7 "C2286" H 7750 4700 50  0001 C CNN "LCSC Part #"
-F 8 "C2286" H 7750 4700 50  0001 C CNN "LCSC"
-	1    7750 4700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small R14
-U 1 1 6028837B
-P 7650 3600
-F 0 "R14" H 7709 3646 50  0000 L CNN
-F 1 "240R" H 7709 3555 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 7650 3600 50  0001 C CNN
-F 3 "~" H 7650 3600 50  0001 C CNN
-F 4 "C23350" H 7650 3600 50  0001 C CNN "LSCS Part #"
-F 5 "" H 7650 3600 50  0001 C CNN "Notes"
-F 6 "Assembly Ready" H 7650 3600 50  0001 C CNN "Assembly"
-F 7 "C23350" H 7650 3600 50  0001 C CNN "LCSC Part #"
-F 8 "C23350" H 7650 3600 50  0001 C CNN "LCSC"
-	1    7650 3600
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R_Small R15
-U 1 1 602890E3
-P 7650 3700
-F 0 "R15" H 7709 3746 50  0000 L CNN
-F 1 "240R" H 7709 3655 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 7650 3700 50  0001 C CNN
-F 3 "~" H 7650 3700 50  0001 C CNN
-F 4 "C23350" H 7650 3700 50  0001 C CNN "LSCS Part #"
-F 5 "" H 7650 3700 50  0001 C CNN "Notes"
-F 6 "Assembly Ready" H 7650 3700 50  0001 C CNN "Assembly"
-F 7 "C23350" H 7650 3700 50  0001 C CNN "LCSC Part #"
-F 8 "C23350" H 7650 3700 50  0001 C CNN "LCSC"
-	1    7650 3700
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	7750 3700 7900 3700
 Wire Wire Line
 	7750 3600 7900 3600
-$Comp
-L Connector:USB_B_Micro J8
-U 1 1 602B9496
-P 4700 4000
-F 0 "J8" H 4757 4467 50  0000 C CNN
-F 1 "USB_B_Micro" H 4757 4376 50  0000 C CNN
-F 2 "Connector_USB:USB_Micro-AB_Molex_47590-0001" H 4850 3950 50  0001 C CNN
-F 3 "~" H 4850 3950 50  0001 C CNN
-F 4 "Not available for assembly" H 4700 4000 50  0001 C CNN "Assembly"
-F 5 "C404969" H 4700 4000 50  0001 C CNN "LSCS Part #"
-F 6 "C404969" H 4700 4000 50  0001 C CNN "LCSC Part #"
-F 7 "C404969" H 4700 4000 50  0001 C CNN "LCSC"
-	1    4700 4000
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5000 3800 5150 3800
 Wire Wire Line
@@ -852,37 +457,6 @@ F 3 "" H 8000 4200 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5650 3050 5650 3600
-$Comp
-L Device:C_Small C16
-U 1 1 60396F37
-P 5300 3400
-F 0 "C16" H 5100 3450 50  0000 L CNN
-F 1 "0.01uF" H 4950 3350 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 5300 3400 50  0001 C CNN
-F 3 "~" H 5300 3400 50  0001 C CNN
-F 4 "C57112" H 5300 3400 50  0001 C CNN "LSCS Part #"
-F 5 "" H 5300 3400 50  0001 C CNN "Notes"
-F 6 "Assembly Ready" H 5300 3400 50  0001 C CNN "Assembly"
-F 7 "C57112" H 5300 3400 50  0001 C CNN "LCSC Part #"
-F 8 "C57112" H 5300 3400 50  0001 C CNN "LCSC"
-	1    5300 3400
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:C_Small C14
-U 1 1 60396AE3
-P 4950 4850
-F 0 "C14" H 4700 4850 50  0000 L CNN
-F 1 "0.1uF" H 4650 4750 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 4950 4850 50  0001 C CNN
-F 3 "~" H 4950 4850 50  0001 C CNN
-F 4 "C14663" H 4950 4850 50  0001 C CNN "LSCS Part #"
-F 5 "Assembly Ready" H 4950 4850 50  0001 C CNN "Assembly"
-F 6 "C14663" H 4950 4850 50  0001 C CNN "LCSC Part #"
-F 7 "C14663" H 4950 4850 50  0001 C CNN "LCSC"
-	1    4950 4850
-	1    0    0    -1  
-$EndComp
 Connection ~ 5300 3300
 $Comp
 L power:GND #PWR041
@@ -894,21 +468,6 @@ F 2 "" H 5300 3500 50  0001 C CNN
 F 3 "" H 5300 3500 50  0001 C CNN
 	1    5300 3500
 	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C15
-U 1 1 603B6994
-P 5100 4850
-F 0 "C15" H 4850 4850 50  0000 L CNN
-F 1 "10uF" H 4800 4950 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 5100 4850 50  0001 C CNN
-F 3 "~" H 5100 4850 50  0001 C CNN
-F 4 "C19702" H 5100 4850 50  0001 C CNN "LSCS Part #"
-F 5 "Assembly Ready" H 5100 4850 50  0001 C CNN "Assembly"
-F 6 "C15850" H 5100 4850 50  0001 C CNN "LCSC Part #"
-F 7 "C15850" H 5100 4850 50  0001 C CNN "LCSC"
-	1    5100 4850
-	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	4950 4950 5100 4950
@@ -967,65 +526,17 @@ F 3 "" H 8150 3500 50  0001 C CNN
 	1    8150 3500
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:R_Small R16
-U 1 1 60426FD9
-P 7800 3350
-F 0 "R16" H 7859 3396 50  0000 L CNN
-F 1 "10K" H 7859 3305 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 7800 3350 50  0001 C CNN
-F 3 "~" H 7800 3350 50  0001 C CNN
-F 4 "C25804" H 7800 3350 50  0001 C CNN "LSCS Part #"
-F 5 "" H 7800 3350 50  0001 C CNN "Notes"
-F 6 "Assembly Ready" H 7800 3350 50  0001 C CNN "Assembly"
-F 7 "C25804" H 7800 3350 50  0001 C CNN "LCSC Part #"
-F 8 "C25804" H 7800 3350 50  0001 C CNN "LCSC"
-	1    7800 3350
-	1    0    0    -1  
-$EndComp
 Connection ~ 8150 3500
 Text GLabel 7650 4000 2    50   Input ~ 0
 ~DTR
 Text GLabel 7400 3200 0    50   Input ~ 0
 ~DTR
-$Comp
-L Device:C_Small C21
-U 1 1 60465497
-P 7650 3200
-F 0 "C21" H 7450 3200 50  0000 L CNN
-F 1 "0.01uF" H 7350 3300 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 7650 3200 50  0001 C CNN
-F 3 "~" H 7650 3200 50  0001 C CNN
-F 4 "C57112" H 7650 3200 50  0001 C CNN "LSCS Part #"
-F 5 "" H 7650 3200 50  0001 C CNN "Notes"
-F 6 "Assembly Ready" H 7650 3200 50  0001 C CNN "Assembly"
-F 7 "C57112" H 7650 3200 50  0001 C CNN "LCSC Part #"
-F 8 "C57112" H 7650 3200 50  0001 C CNN "LCSC"
-	1    7650 3200
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	7800 3500 8150 3500
 Wire Wire Line
 	8150 3000 8250 3000
 Wire Wire Line
 	8150 3400 8150 3500
-$Comp
-L Transistor_BJT:MMBT3904 Q1
-U 1 1 60513723
-P 8050 3200
-F 0 "Q1" H 8241 3246 50  0000 L CNN
-F 1 "MMBT3904" H 8200 3150 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 8250 3125 50  0001 L CIN
-F 3 "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF" H 8050 3200 50  0001 L CNN
-F 4 "C20526" H 8050 3200 50  0001 C CNN "LSCS Part #"
-F 5 "" H 8050 3200 50  0001 C CNN "Notes"
-F 6 "Assembly Ready" H 8050 3200 50  0001 C CNN "Assembly"
-F 7 "C20526" H 8050 3200 50  0001 C CNN "LCSC Part #"
-F 8 "C20526" H 8050 3200 50  0001 C CNN "LCSC"
-	1    8050 3200
-	1    0    0    -1  
-$EndComp
 Wire Notes Line
 	8600 5400 8600 2850
 Wire Notes Line
@@ -1043,19 +554,6 @@ Text GLabel 3750 7150 0    50   Input ~ 0
 TX
 Text GLabel 3750 7250 0    50   Input ~ 0
 RX
-$Comp
-L Connector_Generic:Conn_01x05 J10
-U 1 1 6057FB88
-P 3950 7350
-F 0 "J10" H 4030 7392 50  0000 L CNN
-F 1 "Conn_01x05" H 4030 7301 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 3950 7350 50  0001 C CNN
-F 3 "~" H 3950 7350 50  0001 C CNN
-F 4 "DIP" H 3950 7350 50  0001 C CNN "Notes"
-F 5 "Not available for assembly" H 3950 7350 50  0001 C CNN "Assembly"
-	1    3950 7350
-	1    0    0    -1  
-$EndComp
 Text GLabel 3600 7350 0    50   Input ~ 0
 ~RESET
 Wire Wire Line
@@ -1073,70 +571,6 @@ F 3 "" H 3450 7450 50  0001 C CNN
 $EndComp
 Text GLabel 3750 7550 0    50   Input ~ 0
 ~DTR
-$Comp
-L Connector:Micro_SD_Card J9
-U 1 1 605A5206
-P 7400 1500
-F 0 "J9" H 7350 2217 50  0000 C CNN
-F 1 "Micro_SD_Card" H 7350 2126 50  0000 C CNN
-F 2 "Connector_Card:microSD_HC_Hirose_DM3D-SF" H 8550 1800 50  0001 C CNN
-F 3 "http://katalog.we-online.de/em/datasheet/693072010801.pdf" H 7400 1500 50  0001 C CNN
-F 4 "C719027" H 7400 1500 50  0001 C CNN "LSCS Part #"
-F 5 "" H 7400 1500 50  0001 C CNN "Notes"
-F 6 "Not available for assembly" H 7400 1500 50  0001 C CNN "Assembly"
-F 7 "C719027" H 7400 1500 50  0001 C CNN "LCSC Part #"
-F 8 "C719027" H 7400 1500 50  0001 C CNN "LCSC"
-	1    7400 1500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small R11
-U 1 1 605AA211
-P 5750 950
-F 0 "R11" H 5809 996 50  0000 L CNN
-F 1 "100K" H 5809 905 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 5750 950 50  0001 C CNN
-F 3 "~" H 5750 950 50  0001 C CNN
-F 4 "C25803" H 5750 950 50  0001 C CNN "LSCS Part #"
-F 5 "" H 5750 950 50  0001 C CNN "Notes"
-F 6 "Assembly Ready" H 5750 950 50  0001 C CNN "Assembly"
-F 7 "C25803" H 5750 950 50  0001 C CNN "LCSC Part #"
-F 8 "C25803" H 5750 950 50  0001 C CNN "LCSC"
-	1    5750 950 
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small R10
-U 1 1 605AA5A8
-P 5450 950
-F 0 "R10" H 5509 996 50  0000 L CNN
-F 1 "100K" H 5509 905 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 5450 950 50  0001 C CNN
-F 3 "~" H 5450 950 50  0001 C CNN
-F 4 "C25803" H 5450 950 50  0001 C CNN "LSCS Part #"
-F 5 "" H 5450 950 50  0001 C CNN "Notes"
-F 6 "Assembly Ready" H 5450 950 50  0001 C CNN "Assembly"
-F 7 "C25803" H 5450 950 50  0001 C CNN "LCSC Part #"
-F 8 "C25803" H 5450 950 50  0001 C CNN "LCSC"
-	1    5450 950 
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small R7
-U 1 1 605AA899
-P 5150 950
-F 0 "R7" H 5209 996 50  0000 L CNN
-F 1 "100K" H 5209 905 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 5150 950 50  0001 C CNN
-F 3 "~" H 5150 950 50  0001 C CNN
-F 4 "C25803" H 5150 950 50  0001 C CNN "LSCS Part #"
-F 5 "" H 5150 950 50  0001 C CNN "Notes"
-F 6 "Assembly Ready" H 5150 950 50  0001 C CNN "Assembly"
-F 7 "C25803" H 5150 950 50  0001 C CNN "LCSC Part #"
-F 8 "C25803" H 5150 950 50  0001 C CNN "LCSC"
-	1    5150 950 
-	1    0    0    -1  
-$EndComp
 Connection ~ 6050 850 
 $Comp
 L power:+3.3V #PWR040
@@ -1189,58 +623,11 @@ Wire Wire Line
 Wire Wire Line
 	6200 1500 6200 850 
 Connection ~ 6200 850 
-$Comp
-L Device:C_Small C20
-U 1 1 60641361
-P 6200 2100
-F 0 "C20" H 6292 2146 50  0000 L CNN
-F 1 "0.1uF" H 6292 2055 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 6200 2100 50  0001 C CNN
-F 3 "~" H 6200 2100 50  0001 C CNN
-F 4 "C14663" H 6200 2100 50  0001 C CNN "LSCS Part #"
-F 5 "Assembly Ready" H 6200 2100 50  0001 C CNN "Assembly"
-F 6 "C14663" H 6200 2100 50  0001 C CNN "LCSC Part #"
-F 7 "C14663" H 6200 2100 50  0001 C CNN "LCSC"
-	1    6200 2100
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6200 2000 6200 1500
 Connection ~ 6200 1500
-$Comp
-L Device:R_Small R13
-U 1 1 605A83CD
-P 6350 950
-F 0 "R13" H 6409 996 50  0000 L CNN
-F 1 "100K" H 6409 905 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 6350 950 50  0001 C CNN
-F 3 "~" H 6350 950 50  0001 C CNN
-F 4 "C25803" H 6350 950 50  0001 C CNN "LSCS Part #"
-F 5 "" H 6350 950 50  0001 C CNN "Notes"
-F 6 "Assembly Ready" H 6350 950 50  0001 C CNN "Assembly"
-F 7 "C25803" H 6350 950 50  0001 C CNN "LCSC Part #"
-F 8 "C25803" H 6350 950 50  0001 C CNN "LCSC"
-	1    6350 950 
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6200 850  6050 850 
-$Comp
-L Device:R_Small R12
-U 1 1 605A9D6F
-P 6050 950
-F 0 "R12" H 6109 996 50  0000 L CNN
-F 1 "100K" H 6109 905 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 6050 950 50  0001 C CNN
-F 3 "~" H 6050 950 50  0001 C CNN
-F 4 "C25803" H 6050 950 50  0001 C CNN "LSCS Part #"
-F 5 "" H 6050 950 50  0001 C CNN "Notes"
-F 6 "Assembly Ready" H 6050 950 50  0001 C CNN "Assembly"
-F 7 "C25803" H 6050 950 50  0001 C CNN "LCSC Part #"
-F 8 "C25803" H 6050 950 50  0001 C CNN "LCSC"
-	1    6050 950 
-	1    0    0    -1  
-$EndComp
 Connection ~ 5750 850 
 Wire Wire Line
 	5750 850  6050 850 
@@ -1295,71 +682,6 @@ Wire Notes Line
 	3150 5450 500  5450
 Wire Notes Line
 	3150 6900 3150 5450
-$Comp
-L Connector:Screw_Terminal_01x02 J7
-U 1 1 607683B6
-P 1350 7350
-F 0 "J7" H 1400 7350 50  0000 L CNN
-F 1 "Power" H 1400 7250 50  0000 L CNN
-F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 1350 7350 50  0001 C CNN
-F 3 "~" H 1350 7350 50  0001 C CNN
-F 4 "Not available for assembly" H 1350 7350 50  0001 C CNN "Assembly"
-F 5 "DIP" H 1350 7350 50  0001 C CNN "Notes"
-	1    1350 7350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_02x05_Odd_Even J1
-U 1 1 6039DA17
-P 3500 6050
-F 0 "J1" V 3550 6150 50  0000 R CNN
-F 1 "Conn_02x05_Odd_Even" H 3950 5750 50  0000 R CNN
-F 2 "Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical" H 3500 6050 50  0001 C CNN
-F 3 "~" H 3500 6050 50  0001 C CNN
-F 4 "DIP" H 3500 6050 50  0001 C CNN "Notes"
-F 5 "Not available for assembly" H 3500 6050 50  0001 C CNN "Assembly"
-	1    3500 6050
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector_Generic:Conn_02x05_Odd_Even J2
-U 1 1 603A7C58
-P 4150 6050
-F 0 "J2" V 4200 6150 50  0000 R CNN
-F 1 "Conn_02x05_Odd_Even" H 4600 5750 50  0000 R CNN
-F 2 "Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical" H 4150 6050 50  0001 C CNN
-F 3 "~" H 4150 6050 50  0001 C CNN
-F 4 "DIP" H 4150 6050 50  0001 C CNN "Notes"
-F 5 "Not available for assembly" H 4150 6050 50  0001 C CNN "Assembly"
-	1    4150 6050
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector_Generic:Conn_02x05_Odd_Even J3
-U 1 1 603A8A01
-P 4800 6050
-F 0 "J3" V 4850 6150 50  0000 R CNN
-F 1 "Conn_02x05_Odd_Even" H 5250 5750 50  0000 R CNN
-F 2 "Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical" H 4800 6050 50  0001 C CNN
-F 3 "~" H 4800 6050 50  0001 C CNN
-F 4 "DIP" H 4800 6050 50  0001 C CNN "Notes"
-F 5 "Not available for assembly" H 4800 6050 50  0001 C CNN "Assembly"
-	1    4800 6050
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector_Generic:Conn_02x05_Odd_Even J4
-U 1 1 603A993E
-P 5450 6050
-F 0 "J4" V 5500 6150 50  0000 R CNN
-F 1 "Conn_02x05_Odd_Even" H 5900 5750 50  0000 R CNN
-F 2 "Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical" H 5450 6050 50  0001 C CNN
-F 3 "~" H 5450 6050 50  0001 C CNN
-F 4 "DIP" H 5450 6050 50  0001 C CNN "Notes"
-F 5 "Not available for assembly" H 5450 6050 50  0001 C CNN "Assembly"
-	1    5450 6050
-	0    -1   -1   0   
-$EndComp
 Text GLabel 3300 6250 3    50   Input ~ 0
 P0
 Text GLabel 3400 6250 3    50   Input ~ 0
@@ -1509,53 +831,6 @@ Wire Wire Line
 	5150 1050 5150 1400
 Text Notes 7350 7500 0    50   ~ 0
 Motion and Data Board
-$Comp
-L Device:R_Small R1
-U 1 1 6068913D
-P 6450 5800
-F 0 "R1" H 6509 5846 50  0000 L CNN
-F 1 "10K" H 6509 5755 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 6450 5800 50  0001 C CNN
-F 3 "~" H 6450 5800 50  0001 C CNN
-F 4 "C25804" H 6450 5800 50  0001 C CNN "LSCS Part #"
-F 5 "" H 6450 5800 50  0001 C CNN "Notes"
-F 6 "Assembly Ready" H 6450 5800 50  0001 C CNN "Assembly"
-F 7 "C25804" H 6450 5800 50  0001 C CNN "LCSC Part #"
-F 8 "C25804" H 6450 5800 50  0001 C CNN "LCSC"
-	1    6450 5800
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:R_Small R4
-U 1 1 6068A23C
-P 6450 6150
-F 0 "R4" H 6509 6196 50  0000 L CNN
-F 1 "10K" H 6509 6105 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 6450 6150 50  0001 C CNN
-F 3 "~" H 6450 6150 50  0001 C CNN
-F 4 "C25804" H 6450 6150 50  0001 C CNN "LSCS Part #"
-F 5 "" H 6450 6150 50  0001 C CNN "Notes"
-F 6 "Assembly Ready" H 6450 6150 50  0001 C CNN "Assembly"
-F 7 "C25804" H 6450 6150 50  0001 C CNN "LCSC Part #"
-F 8 "C25804" H 6450 6150 50  0001 C CNN "LCSC"
-	1    6450 6150
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:C_Small C9
-U 1 1 6068ABAB
-P 6650 6150
-F 0 "C9" H 6450 6200 50  0000 L CNN
-F 1 "0.1uF" H 6350 6100 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 6650 6150 50  0001 C CNN
-F 3 "~" H 6650 6150 50  0001 C CNN
-F 4 "C14663" H 6650 6150 50  0001 C CNN "LSCS Part #"
-F 5 "Assembly Ready" H 6650 6150 50  0001 C CNN "Assembly"
-F 6 "C14663" H 6650 6150 50  0001 C CNN "LCSC Part #"
-F 7 "C14663" H 6650 6150 50  0001 C CNN "LCSC"
-	1    6650 6150
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	6300 5600 6450 5600
 Wire Wire Line
@@ -1608,21 +883,6 @@ F 3 "" H 8400 6200 50  0001 C CNN
 	1    8400 6200
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:Polyfuse_Small F1
-U 1 1 60775BCD
-P 5150 3500
-F 0 "F1" V 4945 3500 50  0000 C CNN
-F 1 "500mA" V 5036 3500 50  0000 C CNN
-F 2 "Fuse:Fuse_0603_1608Metric" H 5200 3300 50  0001 L CNN
-F 3 "~" H 5150 3500 50  0001 C CNN
-F 4 "Not available for assembly" H 5150 3500 50  0001 C CNN "Assembly"
-F 5 "C210356" H 5150 3500 50  0001 C CNN "LSCS Part #"
-F 6 "C210356" H 5150 3500 50  0001 C CNN "LCSC Part #"
-F 7 "C210356" H 5150 3500 50  0001 C CNN "LCSC"
-	1    5150 3500
-	1    0    0    -1  
-$EndComp
 Text Notes 8400 6350 0    50   ~ 0
 MF-MSMF050
 $Comp
@@ -1659,19 +919,6 @@ Wire Wire Line
 	8400 6200 8900 6200
 NoConn ~ 1500 6300
 $Comp
-L Connector_Generic:Conn_02x03_Odd_Even J5
-U 1 1 601A17C2
-P 9700 4700
-F 0 "J5" H 9750 5017 50  0000 C CNN
-F 1 "Conn_02x03_Odd_Even" H 9750 4926 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 9700 4700 50  0001 C CNN
-F 3 "~" H 9700 4700 50  0001 C CNN
-F 4 "DIP" H 9700 4700 50  0001 C CNN "Notes"
-F 5 "Not available for assembly" H 9700 4700 50  0001 C CNN "Assembly"
-	1    9700 4700
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:+5V #PWR0121
 U 1 1 601AA626
 P 10200 4600
@@ -1696,16 +943,6 @@ $EndComp
 Wire Wire Line
 	10000 4600 10200 4600
 Wire Wire Line
-	10150 1150 10750 1150
-Wire Wire Line
-	10150 1250 10750 1250
-Wire Wire Line
-	10150 1550 10750 1550
-Wire Wire Line
-	10150 1650 10750 1650
-Wire Wire Line
-	10150 1750 10750 1750
-Wire Wire Line
 	10150 1850 10750 1850
 Wire Wire Line
 	10150 1950 10750 1950
@@ -1713,20 +950,6 @@ Wire Wire Line
 	10150 2050 10750 2050
 Wire Wire Line
 	10750 2450 10150 2450
-Wire Wire Line
-	10150 2550 10750 2550
-Wire Wire Line
-	10750 2650 10150 2650
-Wire Wire Line
-	10150 2750 10750 2750
-Wire Wire Line
-	10750 2850 10150 2850
-Wire Wire Line
-	10150 2950 10750 2950
-Wire Wire Line
-	10750 3050 10150 3050
-Wire Wire Line
-	10150 3150 10750 3150
 NoConn ~ 10150 3900
 NoConn ~ 10150 3800
 NoConn ~ 10150 3700
@@ -1773,38 +996,6 @@ Wire Wire Line
 	8900 2050 8900 1200
 NoConn ~ 10150 1350
 $Comp
-L Device:LED D4
-U 1 1 60095918
-P 1950 7500
-F 0 "D4" H 1950 7300 50  0000 C CNN
-F 1 "RED" H 1950 7400 50  0000 C CNN
-F 2 "LED_SMD:LED_0603_1608Metric" H 1950 7500 50  0001 C CNN
-F 3 "~" H 1950 7500 50  0001 C CNN
-F 4 "C2286" H 1950 7500 50  0001 C CNN "LSCS Part #"
-F 5 "" H 1950 7500 50  0001 C CNN "Notes"
-F 6 "Assembly Ready" H 1950 7500 50  0001 C CNN "Assembly"
-F 7 "C2286" H 1950 7500 50  0001 C CNN "LCSC Part #"
-F 8 "C2286" H 1950 7500 50  0001 C CNN "LCSC"
-	1    1950 7500
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:LED D5
-U 1 1 60096F59
-P 2350 7500
-F 0 "D5" H 2350 7300 50  0000 C CNN
-F 1 "RED" H 2350 7400 50  0000 C CNN
-F 2 "LED_SMD:LED_0603_1608Metric" H 2350 7500 50  0001 C CNN
-F 3 "~" H 2350 7500 50  0001 C CNN
-F 4 "C2286" H 2350 7500 50  0001 C CNN "LSCS Part #"
-F 5 "" H 2350 7500 50  0001 C CNN "Notes"
-F 6 "Assembly Ready" H 2350 7500 50  0001 C CNN "Assembly"
-F 7 "C2286" H 2350 7500 50  0001 C CNN "LCSC Part #"
-F 8 "C2286" H 2350 7500 50  0001 C CNN "LCSC"
-	1    2350 7500
-	0    -1   -1   0   
-$EndComp
-$Comp
 L power:GND #PWR0123
 U 1 1 600A47DA
 P 1950 7650
@@ -1821,54 +1012,6 @@ Connection ~ 1950 7650
 Connection ~ 2350 7650
 Wire Wire Line
 	2350 7650 2750 7650
-$Comp
-L Device:R R5
-U 1 1 600B05C6
-P 1950 7200
-F 0 "R5" H 2020 7246 50  0000 L CNN
-F 1 "240R" H 2020 7155 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 1880 7200 50  0001 C CNN
-F 3 "~" H 1950 7200 50  0001 C CNN
-F 4 "C23350" H 1950 7200 50  0001 C CNN "LSCS Part #"
-F 5 "" H 1950 7200 50  0001 C CNN "Notes"
-F 6 "Assembly Ready" H 1950 7200 50  0001 C CNN "Assembly"
-F 7 "C23350" H 1950 7200 50  0001 C CNN "LCSC Part #"
-F 8 "C23350" H 1950 7200 50  0001 C CNN "LCSC"
-	1    1950 7200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R6
-U 1 1 600B109C
-P 2350 7200
-F 0 "R6" H 2420 7246 50  0000 L CNN
-F 1 "100R" H 2420 7155 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 2280 7200 50  0001 C CNN
-F 3 "~" H 2350 7200 50  0001 C CNN
-F 4 "C22775" H 2350 7200 50  0001 C CNN "LSCS Part #"
-F 5 "" H 2350 7200 50  0001 C CNN "Notes"
-F 6 "Assembly Ready" H 2350 7200 50  0001 C CNN "Assembly"
-F 7 "C22775" H 2350 7200 50  0001 C CNN "LCSC Part #"
-F 8 "C22775" H 2350 7200 50  0001 C CNN "LCSC"
-	1    2350 7200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R18
-U 1 1 600B1573
-P 2750 7200
-F 0 "R18" H 2820 7246 50  0000 L CNN
-F 1 "100R" H 2820 7155 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 2680 7200 50  0001 C CNN
-F 3 "~" H 2750 7200 50  0001 C CNN
-F 4 "C22775" H 2750 7200 50  0001 C CNN "LSCS Part #"
-F 5 "" H 2750 7200 50  0001 C CNN "Notes"
-F 6 "Assembly Ready" H 2750 7200 50  0001 C CNN "Assembly"
-F 7 "C22775" H 2750 7200 50  0001 C CNN "LCSC Part #"
-F 8 "C22775" H 2750 7200 50  0001 C CNN "LCSC"
-	1    2750 7200
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:+3.3V #PWR0124
 U 1 1 600B35F3
@@ -1890,22 +1033,6 @@ F 2 "" H 1950 7050 50  0001 C CNN
 F 3 "" H 1950 7050 50  0001 C CNN
 	1    1950 7050
 	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R_Small R17
-U 1 1 60286B65
-P 8000 4300
-F 0 "R17" H 8059 4346 50  0000 L CNN
-F 1 "240R" H 8059 4255 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 8000 4300 50  0001 C CNN
-F 3 "~" H 8000 4300 50  0001 C CNN
-F 4 "C23350" H 8000 4300 50  0001 C CNN "LSCS Part #"
-F 5 "" H 8000 4300 50  0001 C CNN "Notes"
-F 6 "Assembly Ready" H 8000 4300 50  0001 C CNN "Assembly"
-F 7 "C23350" H 8000 4300 50  0001 C CNN "LCSC Part #"
-F 8 "C23350" H 8000 4300 50  0001 C CNN "LCSC"
-	1    8000 4300
-	1    0    0    -1  
 $EndComp
 Text GLabel 2750 7050 0    50   Input ~ 0
 P18
@@ -1945,22 +1072,6 @@ Wire Wire Line
 Connection ~ 10950 850 
 Wire Wire Line
 	10950 850  11050 850 
-$Comp
-L Amplifier_Operational:LMV321 U6
-U 1 1 60125569
-P 7450 5900
-F 0 "U6" H 7794 5946 50  0000 L CNN
-F 1 "LMV321" H 7794 5855 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-5" H 7450 5900 50  0001 L CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lmv324.pdf" H 7450 5900 50  0001 C CNN
-F 4 "C7972" H 7450 5900 50  0001 C CNN "LSCS Part #"
-F 5 "" H 7450 5900 50  0001 C CNN "Notes"
-F 6 "Assembly Ready" H 7450 5900 50  0001 C CNN "Assembly"
-F 7 "C7972" H 7450 5900 50  0001 C CNN "LCSC Part #"
-F 8 "C7972" H 7450 5900 50  0001 C CNN "LCSC"
-	1    7450 5900
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7150 5800 6650 5800
 Wire Wire Line
@@ -1986,22 +1097,6 @@ F 2 "" H 7350 6200 50  0001 C CNN
 F 3 "" H 7350 6200 50  0001 C CNN
 	1    7350 6200
 	0    1    1    0   
-$EndComp
-$Comp
-L Interface_USB:FT232RL U4
-U 1 1 60169EA0
-P 6600 4300
-F 0 "U4" H 6650 4400 50  0000 C CNN
-F 1 "FT232RL" H 6650 4600 50  0000 C CNN
-F 2 "Package_SO:SSOP-28_5.3x10.2mm_P0.65mm" H 7700 3400 50  0001 C CNN
-F 3 "https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT232R.pdf" H 6600 4300 50  0001 C CNN
-F 4 "C8690" H 6600 4300 50  0001 C CNN "LSCS Part #"
-F 5 "" H 6600 4300 50  0001 C CNN "Notes"
-F 6 "Assembly Ready" H 6600 4300 50  0001 C CNN "Assembly"
-F 7 "C8690" H 6600 4300 50  0001 C CNN "LCSC Part #"
-F 8 "C8690" H 6600 4300 50  0001 C CNN "LCSC"
-	1    6600 4300
-	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	7600 4500 7400 4500
@@ -2060,21 +1155,6 @@ Wire Wire Line
 	5000 4000 5500 4000
 Wire Wire Line
 	5000 4100 5800 4100
-$Comp
-L Device:C_Small C11
-U 1 1 6035CD53
-P 5650 3700
-F 0 "C11" H 5400 3700 50  0000 L CNN
-F 1 "0.1uF" H 5350 3800 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 5650 3700 50  0001 C CNN
-F 3 "~" H 5650 3700 50  0001 C CNN
-F 4 "C14663" H 5650 3700 50  0001 C CNN "LSCS Part #"
-F 5 "Assembly Ready" H 5650 3700 50  0001 C CNN "Assembly"
-F 6 "C14663" H 5650 3700 50  0001 C CNN "LCSC Part #"
-F 7 "C14663" H 5650 3700 50  0001 C CNN "LCSC"
-	1    5650 3700
-	-1   0    0    1   
-$EndComp
 Connection ~ 5650 3600
 $Comp
 L power:GND #PWR0127
@@ -2108,38 +1188,6 @@ Wire Wire Line
 Connection ~ 6250 5300
 Wire Wire Line
 	3450 7450 3750 7450
-$Comp
-L MAD_Board:AT24C512 U3
-U 1 1 601A581D
-P 1200 6350
-F 0 "U3" H 1200 6725 50  0000 C CNN
-F 1 "AT24C512" H 1200 6634 50  0000 C CNN
-F 2 "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.514x3.2mm" H 1150 6300 50  0001 C CNN
-F 3 "" H 1150 6300 50  0001 C CNN
-F 4 " C6482" H 1200 6350 50  0001 C CNN "LSCS Part #"
-F 5 "AT24C256 is used" H 1200 6350 50  0001 C CNN "Notes"
-F 6 "Assembly Ready" H 1200 6350 50  0001 C CNN "Assembly"
-F 7 " C6482" H 1200 6350 50  0001 C CNN "LCSC Part #"
-F 8 " C6482" H 1200 6350 50  0001 C CNN "LCSC"
-	1    1200 6350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R8
-U 1 1 603A0A8D
-P 1000 6650
-F 0 "R8" H 1070 6696 50  0000 L CNN
-F 1 "10k" H 1070 6605 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 930 6650 50  0001 C CNN
-F 3 "~" H 1000 6650 50  0001 C CNN
-F 4 "C25804" H 1000 6650 50  0001 C CNN "LSCS Part #"
-F 5 "" H 1000 6650 50  0001 C CNN "Notes"
-F 6 "Assembly Ready" H 1000 6650 50  0001 C CNN "Assembly"
-F 7 "C25804" H 1000 6650 50  0001 C CNN "LCSC Part #"
-F 8 "C25804" H 1000 6650 50  0001 C CNN "LCSC"
-	1    1000 6650
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	850  6400 850  6650
 Wire Wire Line
@@ -2155,21 +1203,6 @@ F 3 "" H 1150 6650 50  0001 C CNN
 	1    1150 6650
 	1    0    0    -1  
 $EndComp
-$Comp
-L MAD_Board:APM4953 U7
-U 1 1 600DCCD2
-P 9100 6200
-F 0 "U7" V 8954 5956 50  0000 R CNN
-F 1 "APM4953" V 9045 5956 50  0000 R CNN
-F 2 "Package_SO:SOP-8_3.9x4.9mm_P1.27mm" H 9800 5950 50  0001 C CNN
-F 3 "" H 9800 5950 50  0001 C CNN
-F 4 "Assembly Ready" H 9100 6200 50  0001 C CNN "Assembly"
-F 5 "C20897" H 9100 6200 50  0001 C CNN "LSCS Part #"
-F 6 "C20897" H 9100 6200 50  0001 C CNN "LCSC Part #"
-F 7 "C20897" H 9100 6200 50  0001 C CNN "LCSC"
-	1    9100 6200
-	0    -1   1    0   
-$EndComp
 Wire Wire Line
 	9000 6300 8900 6300
 Wire Wire Line
@@ -2177,21 +1210,6 @@ Wire Wire Line
 Connection ~ 8900 6200
 Wire Wire Line
 	9300 6200 9750 6200
-$Comp
-L MAD_Board:APM4953 U7
-U 2 1 60118A89
-P 900 7350
-F 0 "U7" V 700 7550 50  0000 R CNN
-F 1 "APM4953" V 1050 7500 50  0000 R CNN
-F 2 "Package_SO:SOP-8_3.9x4.9mm_P1.27mm" H 1600 7100 50  0001 C CNN
-F 3 "" H 1600 7100 50  0001 C CNN
-F 4 "Assembly Ready" H 900 7350 50  0001 C CNN "Assembly"
-F 5 "C20897" H 900 7350 50  0001 C CNN "LSCS Part #"
-F 6 "C20897" H 900 7350 50  0001 C CNN "LCSC Part #"
-F 7 "C20897" H 900 7350 50  0001 C CNN "LCSC"
-	2    900  7350
-	0    1    1    0   
-$EndComp
 $Comp
 L power:GND #PWR05
 U 1 1 60143BF5
@@ -2216,81 +1234,6 @@ Wire Wire Line
 Wire Wire Line
 	1100 7450 1100 7350
 Connection ~ 1100 7350
-$Comp
-L Regulator_Linear:AMS1117-3.3 U5
-U 1 1 601650A7
-P 3250 1200
-F 0 "U5" H 3250 1442 50  0000 C CNN
-F 1 "AMS1117-3.3" H 3250 1351 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 3250 1400 50  0001 C CNN
-F 3 "http://www.advanced-monolithic.com/pdf/ds1117.pdf" H 3350 950 50  0001 C CNN
-F 4 "Assembly Ready" H 3250 1200 50  0001 C CNN "Assembly"
-F 5 "C6186" H 3250 1200 50  0001 C CNN "LSCS Part #"
-F 6 "C6186" H 3250 1200 50  0001 C CNN "LCSC Part #"
-F 7 "C6186" H 3250 1200 50  0001 C CNN "LCSC"
-	1    3250 1200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C8
-U 1 1 6017FBBB
-P 2800 1300
-F 0 "C8" H 2892 1346 50  0000 L CNN
-F 1 "1uF" H 2892 1255 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 2800 1300 50  0001 C CNN
-F 3 "~" H 2800 1300 50  0001 C CNN
-F 4 "C15849" H 2800 1300 50  0001 C CNN "LSCS Part #"
-F 5 "Assembly Ready" H 2800 1300 50  0001 C CNN "Assembly"
-F 6 "C15849" H 2800 1300 50  0001 C CNN "LCSC Part #"
-F 7 "C15849" H 2800 1300 50  0001 C CNN "LCSC"
-	1    2800 1300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C12
-U 1 1 6018067E
-P 3550 1300
-F 0 "C12" H 3642 1346 50  0000 L CNN
-F 1 "4.7uF" H 3642 1255 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 3550 1300 50  0001 C CNN
-F 3 "~" H 3550 1300 50  0001 C CNN
-F 4 "C14663" H 3550 1300 50  0001 C CNN "LSCS Part #"
-F 5 "Assembly Ready" H 3550 1300 50  0001 C CNN "Assembly"
-F 6 "C14663" H 3550 1300 50  0001 C CNN "LCSC Part #"
-F 7 "C14663" H 3550 1300 50  0001 C CNN "LCSC"
-	1    3550 1300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C7
-U 1 1 60181C70
-P 2650 1300
-F 0 "C7" H 2742 1346 50  0000 L CNN
-F 1 "4.7uF" H 2742 1255 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 2650 1300 50  0001 C CNN
-F 3 "~" H 2650 1300 50  0001 C CNN
-F 4 "C14663" H 2650 1300 50  0001 C CNN "LSCS Part #"
-F 5 "Assembly Ready" H 2650 1300 50  0001 C CNN "Assembly"
-F 6 "C14663" H 2650 1300 50  0001 C CNN "LCSC Part #"
-F 7 "C14663" H 2650 1300 50  0001 C CNN "LCSC"
-	1    2650 1300
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:C_Small C13
-U 1 1 60182327
-P 3900 1300
-F 0 "C13" H 3992 1346 50  0000 L CNN
-F 1 "1uF" H 3992 1255 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 3900 1300 50  0001 C CNN
-F 3 "~" H 3900 1300 50  0001 C CNN
-F 4 "C15849" H 3900 1300 50  0001 C CNN "LSCS Part #"
-F 5 "Assembly Ready" H 3900 1300 50  0001 C CNN "Assembly"
-F 6 "C15849" H 3900 1300 50  0001 C CNN "LCSC Part #"
-F 7 "C15849" H 3900 1300 50  0001 C CNN "LCSC"
-	1    3900 1300
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR0129
 U 1 1 60204C22
@@ -2354,22 +1297,6 @@ F 3 "" H 3900 1200 50  0001 C CNN
 $EndComp
 Connection ~ 3900 1200
 $Comp
-L Device:LED D6
-U 1 1 60289340
-P 2750 7500
-F 0 "D6" H 2743 7717 50  0000 C CNN
-F 1 "BLUE" H 2743 7626 50  0000 C CNN
-F 2 "LED_SMD:LED_0603_1608Metric" H 2750 7500 50  0001 C CNN
-F 3 "~" H 2750 7500 50  0001 C CNN
-F 4 "C72041" H 2750 7500 50  0001 C CNN "LSCS Part #"
-F 5 "" H 2750 7500 50  0001 C CNN "Notes"
-F 6 "Assembly Ready" H 2750 7500 50  0001 C CNN "Assembly"
-F 7 "C72041" H 2750 7500 50  0001 C CNN "LCSC Part #"
-F 8 "C72041" H 2750 7500 50  0001 C CNN "LCSC"
-	1    2750 7500
-	0    -1   -1   0   
-$EndComp
-$Comp
 L power:GND #PWR015
 U 1 1 602CFFD2
 P 5550 6250
@@ -2413,21 +1340,6 @@ F 3 "" H 5350 5750 50  0001 C CNN
 	1    5350 5750
 	-1   0    0    1   
 $EndComp
-$Comp
-L Device:C_Small C17
-U 1 1 600C3266
-P 1350 7200
-F 0 "C17" H 1442 7246 50  0000 L CNN
-F 1 "10uF" H 1442 7155 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 1350 7200 50  0001 C CNN
-F 3 "~" H 1350 7200 50  0001 C CNN
-F 4 "C14663" H 1350 7200 50  0001 C CNN "LSCS Part #"
-F 5 "Assembly Ready" H 1350 7200 50  0001 C CNN "Assembly"
-F 6 "C15850" H 1350 7200 50  0001 C CNN "LCSC Part #"
-F 7 "C15850" H 1350 7200 50  0001 C CNN "LCSC"
-	1    1350 7200
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	1250 7200 1100 7200
 Wire Wire Line
@@ -2442,50 +1354,6 @@ F 2 "" H 1450 7200 50  0001 C CNN
 F 3 "" H 1450 7200 50  0001 C CNN
 	1    1450 7200
 	0    -1   -1   0   
-$EndComp
-$Comp
-L Regulator_Linear:SPX2920T-5.0_TO263 U2
-U 1 1 6010C011
-P 1450 1200
-F 0 "U2" H 1450 1442 50  0000 C CNN
-F 1 "SPX2920T-5.0_TO263" H 1450 1351 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:TO-263-3_TabPin2" H 1450 1425 50  0001 C CIN
-F 3 "http://www.zlgmcu.com/Sipex/LDO/PDF/spx2920.pdf" H 1450 1150 50  0001 C CNN
-F 4 "C24592" H 1450 1200 50  0001 C CNN "LCSC Part #"
-F 5 "C24592" H 1450 1200 50  0001 C CNN "LSCS Part #"
-F 6 "C24592" H 1450 1200 50  0001 C CNN "LCSC"
-	1    1450 1200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C5
-U 1 1 60139E5A
-P 950 1300
-F 0 "C5" H 1042 1346 50  0000 L CNN
-F 1 "10uF" H 1042 1255 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 950 1300 50  0001 C CNN
-F 3 "~" H 950 1300 50  0001 C CNN
-F 4 "C14663" H 950 1300 50  0001 C CNN "LSCS Part #"
-F 5 "Assembly Ready" H 950 1300 50  0001 C CNN "Assembly"
-F 6 "C15850" H 950 1300 50  0001 C CNN "LCSC Part #"
-F 7 "C15850" H 950 1300 50  0001 C CNN "LCSC"
-	1    950  1300
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:C_Small C6
-U 1 1 6013AA03
-P 1900 1300
-F 0 "C6" H 1992 1346 50  0000 L CNN
-F 1 "10uF" H 1992 1255 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 1900 1300 50  0001 C CNN
-F 3 "~" H 1900 1300 50  0001 C CNN
-F 4 "C14663" H 1900 1300 50  0001 C CNN "LSCS Part #"
-F 5 "Assembly Ready" H 1900 1300 50  0001 C CNN "Assembly"
-F 6 "C15850" H 1900 1300 50  0001 C CNN "LCSC Part #"
-F 7 "C15850" H 1900 1300 50  0001 C CNN "LCSC"
-	1    1900 1300
-	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR018
@@ -2523,19 +1391,6 @@ F 3 "" H 1900 1200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 1900 1200
-$Comp
-L Switch:SW_Push SW1
-U 1 1 60195BAC
-P 5250 7400
-F 0 "SW1" H 5250 7685 50  0000 C CNN
-F 1 "SW_Push" H 5250 7594 50  0000 C CNN
-F 2 "LED_SMD:LED_1210_3225Metric" H 5250 7600 50  0001 C CNN
-F 3 "~" H 5250 7600 50  0001 C CNN
-F 4 "" H 5250 7400 50  0001 C CNN "LCSC Part #"
-F 5 "C318884" H 5250 7400 50  0001 C CNN "LSCS Part #"
-	1    5250 7400
-	1    0    0    -1  
-$EndComp
 Text GLabel 5050 7400 0    50   Input ~ 0
 ~RESET
 $Comp
@@ -2615,4 +1470,1115 @@ Text GLabel 8900 1200 1    50   Input ~ 0
 VIN
 Text GLabel 950  1200 1    50   Input ~ 0
 VIN
+NoConn ~ 10150 1150
+NoConn ~ 10150 1250
+NoConn ~ 10150 1550
+NoConn ~ 10150 1650
+NoConn ~ 10150 1750
+NoConn ~ 10150 2550
+NoConn ~ 10150 2650
+NoConn ~ 10150 2750
+NoConn ~ 10150 2850
+NoConn ~ 10150 2950
+NoConn ~ 10150 3050
+NoConn ~ 10150 3150
+Text Notes 7050 6850 0    50   ~ 0
+TESTING NOTES:\n- EEPROM soldered in wrong way\n- Fixed status leds resistor values to 5mA
+$Comp
+L Connector_Generic:Conn_01x08 P6
+U 1 1 56D734D0
+P 9950 2750
+F 0 "P6" H 9950 3150 50  0000 C CNN
+F 1 "PWM" V 10050 2750 50  0001 C CNN
+F 2 "Socket_Arduino_Mega:Socket_Strip_Arduino_1x08" H 9950 2750 50  0001 C CNN
+F 3 "" H 9950 2750 50  0000 C CNN
+F 4 "DIP" H 9950 2750 50  0001 C CNN "Notes"
+F 5 "Not available for assembly" H 9950 2750 50  0001 C CNN "Assembly"
+	1    9950 2750
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW1
+U 1 1 60195BAC
+P 5250 7400
+F 0 "SW1" H 5250 7685 50  0000 C CNN
+F 1 "SW_Push" H 5250 7594 50  0000 C CNN
+F 2 "LED_SMD:LED_1210_3225Metric" H 5250 7600 50  0001 C CNN
+F 3 "~" H 5250 7600 50  0001 C CNN
+F 4 "" H 5250 7400 50  0001 C CNN "LCSC Part #"
+F 5 "C318884" H 5250 7400 50  0001 C CNN "LSCS Part #"
+	1    5250 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C6
+U 1 1 6013AA03
+P 1900 1300
+F 0 "C6" H 1992 1346 50  0000 L CNN
+F 1 "10uF" H 1992 1255 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 1900 1300 50  0001 C CNN
+F 3 "~" H 1900 1300 50  0001 C CNN
+F 4 "C15850" H 1900 1300 50  0001 C CNN "LSCS Part #"
+F 5 "Assembly Ready" H 1900 1300 50  0001 C CNN "Assembly"
+F 6 "C15850" H 1900 1300 50  0001 C CNN "LCSC Part #"
+F 7 "C15850" H 1900 1300 50  0001 C CNN "LCSC"
+	1    1900 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C5
+U 1 1 60139E5A
+P 950 1300
+F 0 "C5" H 1042 1346 50  0000 L CNN
+F 1 "10uF" H 1042 1255 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 950 1300 50  0001 C CNN
+F 3 "~" H 950 1300 50  0001 C CNN
+F 4 "C15850" H 950 1300 50  0001 C CNN "LSCS Part #"
+F 5 "Assembly Ready" H 950 1300 50  0001 C CNN "Assembly"
+F 6 "C15850" H 950 1300 50  0001 C CNN "LCSC Part #"
+F 7 "C15850" H 950 1300 50  0001 C CNN "LCSC"
+	1    950  1300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Regulator_Linear:SPX2920T-5.0_TO263 U2
+U 1 1 6010C011
+P 1450 1200
+F 0 "U2" H 1450 1442 50  0000 C CNN
+F 1 "SPX2920T-5.0_TO263" H 1450 1351 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:TO-263-3_TabPin2" H 1450 1425 50  0001 C CIN
+F 3 "http://www.zlgmcu.com/Sipex/LDO/PDF/spx2920.pdf" H 1450 1150 50  0001 C CNN
+F 4 "C24592" H 1450 1200 50  0001 C CNN "LCSC Part #"
+F 5 "C24592" H 1450 1200 50  0001 C CNN "LSCS Part #"
+F 6 "C24592" H 1450 1200 50  0001 C CNN "LCSC"
+	1    1450 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C17
+U 1 1 600C3266
+P 1350 7200
+F 0 "C17" H 1442 7246 50  0000 L CNN
+F 1 "10uF" H 1442 7155 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 1350 7200 50  0001 C CNN
+F 3 "~" H 1350 7200 50  0001 C CNN
+F 4 "C15850" H 1350 7200 50  0001 C CNN "LSCS Part #"
+F 5 "Assembly Ready" H 1350 7200 50  0001 C CNN "Assembly"
+F 6 "C15850" H 1350 7200 50  0001 C CNN "LCSC Part #"
+F 7 "C15850" H 1350 7200 50  0001 C CNN "LCSC"
+	1    1350 7200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D6
+U 1 1 60289340
+P 2750 7500
+F 0 "D6" H 2743 7717 50  0000 C CNN
+F 1 "RED" H 2743 7626 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 2750 7500 50  0001 C CNN
+F 3 "~" H 2750 7500 50  0001 C CNN
+F 4 "C84256" H 2750 7500 50  0001 C CNN "LSCS Part #"
+F 5 "" H 2750 7500 50  0001 C CNN "Notes"
+F 6 "Assembly Ready" H 2750 7500 50  0001 C CNN "Assembly"
+F 7 "C84256" H 2750 7500 50  0001 C CNN "LCSC Part #"
+F 8 "C84256" H 2750 7500 50  0001 C CNN "LCSC"
+	1    2750 7500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C_Small C13
+U 1 1 60182327
+P 3900 1300
+F 0 "C13" H 3992 1346 50  0000 L CNN
+F 1 "1uF" H 3992 1255 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3900 1300 50  0001 C CNN
+F 3 "~" H 3900 1300 50  0001 C CNN
+F 4 "C15849" H 3900 1300 50  0001 C CNN "LSCS Part #"
+F 5 "Assembly Ready" H 3900 1300 50  0001 C CNN "Assembly"
+F 6 "C15849" H 3900 1300 50  0001 C CNN "LCSC Part #"
+F 7 "C15849" H 3900 1300 50  0001 C CNN "LCSC"
+	1    3900 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C7
+U 1 1 60181C70
+P 2650 1300
+F 0 "C7" H 2742 1346 50  0000 L CNN
+F 1 "4.7uF" H 2742 1255 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2650 1300 50  0001 C CNN
+F 3 "~" H 2650 1300 50  0001 C CNN
+F 4 "C14663" H 2650 1300 50  0001 C CNN "LSCS Part #"
+F 5 "Assembly Ready" H 2650 1300 50  0001 C CNN "Assembly"
+F 6 "C14663" H 2650 1300 50  0001 C CNN "LCSC Part #"
+F 7 "C14663" H 2650 1300 50  0001 C CNN "LCSC"
+	1    2650 1300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C_Small C12
+U 1 1 6018067E
+P 3550 1300
+F 0 "C12" H 3642 1346 50  0000 L CNN
+F 1 "4.7uF" H 3642 1255 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3550 1300 50  0001 C CNN
+F 3 "~" H 3550 1300 50  0001 C CNN
+F 4 "C14663" H 3550 1300 50  0001 C CNN "LSCS Part #"
+F 5 "Assembly Ready" H 3550 1300 50  0001 C CNN "Assembly"
+F 6 "C14663" H 3550 1300 50  0001 C CNN "LCSC Part #"
+F 7 "C14663" H 3550 1300 50  0001 C CNN "LCSC"
+	1    3550 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C8
+U 1 1 6017FBBB
+P 2800 1300
+F 0 "C8" H 2892 1346 50  0000 L CNN
+F 1 "1uF" H 2892 1255 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2800 1300 50  0001 C CNN
+F 3 "~" H 2800 1300 50  0001 C CNN
+F 4 "C15849" H 2800 1300 50  0001 C CNN "LSCS Part #"
+F 5 "Assembly Ready" H 2800 1300 50  0001 C CNN "Assembly"
+F 6 "C15849" H 2800 1300 50  0001 C CNN "LCSC Part #"
+F 7 "C15849" H 2800 1300 50  0001 C CNN "LCSC"
+	1    2800 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Regulator_Linear:AMS1117-3.3 U5
+U 1 1 601650A7
+P 3250 1200
+F 0 "U5" H 3250 1442 50  0000 C CNN
+F 1 "AMS1117-3.3" H 3250 1351 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 3250 1400 50  0001 C CNN
+F 3 "http://www.advanced-monolithic.com/pdf/ds1117.pdf" H 3350 950 50  0001 C CNN
+F 4 "Assembly Ready" H 3250 1200 50  0001 C CNN "Assembly"
+F 5 "C6186" H 3250 1200 50  0001 C CNN "LSCS Part #"
+F 6 "C6186" H 3250 1200 50  0001 C CNN "LCSC Part #"
+F 7 "C6186" H 3250 1200 50  0001 C CNN "LCSC"
+	1    3250 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L MAD_Board:APM4953 U7
+U 2 1 60118A89
+P 900 7350
+F 0 "U7" V 700 7550 50  0000 R CNN
+F 1 "APM4953" V 1050 7500 50  0000 R CNN
+F 2 "Package_SO:SOP-8_3.9x4.9mm_P1.27mm" H 1600 7100 50  0001 C CNN
+F 3 "" H 1600 7100 50  0001 C CNN
+F 4 "Assembly Ready" H 900 7350 50  0001 C CNN "Assembly"
+F 5 "C20897" H 900 7350 50  0001 C CNN "LSCS Part #"
+F 6 "C20897" H 900 7350 50  0001 C CNN "LCSC Part #"
+F 7 "C20897" H 900 7350 50  0001 C CNN "LCSC"
+	2    900  7350
+	0    1    1    0   
+$EndComp
+$Comp
+L MAD_Board:APM4953 U7
+U 1 1 600DCCD2
+P 9100 6200
+F 0 "U7" V 8954 5956 50  0000 R CNN
+F 1 "APM4953" V 9045 5956 50  0000 R CNN
+F 2 "Package_SO:SOP-8_3.9x4.9mm_P1.27mm" H 9800 5950 50  0001 C CNN
+F 3 "" H 9800 5950 50  0001 C CNN
+F 4 "Assembly Ready" H 9100 6200 50  0001 C CNN "Assembly"
+F 5 "C20897" H 9100 6200 50  0001 C CNN "LSCS Part #"
+F 6 "C20897" H 9100 6200 50  0001 C CNN "LCSC Part #"
+F 7 "C20897" H 9100 6200 50  0001 C CNN "LCSC"
+	1    9100 6200
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:R R8
+U 1 1 603A0A8D
+P 1000 6650
+F 0 "R8" H 1070 6696 50  0000 L CNN
+F 1 "10k" H 1070 6605 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 930 6650 50  0001 C CNN
+F 3 "~" H 1000 6650 50  0001 C CNN
+F 4 "C25804" H 1000 6650 50  0001 C CNN "LSCS Part #"
+F 5 "" H 1000 6650 50  0001 C CNN "Notes"
+F 6 "Assembly Ready" H 1000 6650 50  0001 C CNN "Assembly"
+F 7 "C25804" H 1000 6650 50  0001 C CNN "LCSC Part #"
+F 8 "C25804" H 1000 6650 50  0001 C CNN "LCSC"
+	1    1000 6650
+	0    1    1    0   
+$EndComp
+$Comp
+L MAD_Board:AT24C512 U3
+U 1 1 601A581D
+P 1200 6350
+F 0 "U3" H 1200 6725 50  0000 C CNN
+F 1 "AT24C512" H 1200 6634 50  0000 C CNN
+F 2 "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.514x3.2mm" H 1150 6300 50  0001 C CNN
+F 3 "" H 1150 6300 50  0001 C CNN
+F 4 " C6482" H 1200 6350 50  0001 C CNN "LSCS Part #"
+F 5 "AT24C256 is used" H 1200 6350 50  0001 C CNN "Notes"
+F 6 "Assembly Ready" H 1200 6350 50  0001 C CNN "Assembly"
+F 7 " C6482" H 1200 6350 50  0001 C CNN "LCSC Part #"
+F 8 " C6482" H 1200 6350 50  0001 C CNN "LCSC"
+	1    1200 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C11
+U 1 1 6035CD53
+P 5650 3700
+F 0 "C11" H 5400 3700 50  0000 L CNN
+F 1 "0.1uF" H 5350 3800 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5650 3700 50  0001 C CNN
+F 3 "~" H 5650 3700 50  0001 C CNN
+F 4 "C14663" H 5650 3700 50  0001 C CNN "LSCS Part #"
+F 5 "Assembly Ready" H 5650 3700 50  0001 C CNN "Assembly"
+F 6 "C14663" H 5650 3700 50  0001 C CNN "LCSC Part #"
+F 7 "C14663" H 5650 3700 50  0001 C CNN "LCSC"
+	1    5650 3700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Interface_USB:FT232RL U4
+U 1 1 60169EA0
+P 6600 4300
+F 0 "U4" H 6650 4400 50  0000 C CNN
+F 1 "FT232RL" H 6650 4600 50  0000 C CNN
+F 2 "Package_SO:SSOP-28_5.3x10.2mm_P0.65mm" H 7700 3400 50  0001 C CNN
+F 3 "https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT232R.pdf" H 6600 4300 50  0001 C CNN
+F 4 "C8690" H 6600 4300 50  0001 C CNN "LSCS Part #"
+F 5 "" H 6600 4300 50  0001 C CNN "Notes"
+F 6 "Assembly Ready" H 6600 4300 50  0001 C CNN "Assembly"
+F 7 "C8690" H 6600 4300 50  0001 C CNN "LCSC Part #"
+F 8 "C8690" H 6600 4300 50  0001 C CNN "LCSC"
+	1    6600 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:LMV321 U6
+U 1 1 60125569
+P 7450 5900
+F 0 "U6" H 7794 5946 50  0000 L CNN
+F 1 "LMV321" H 7794 5855 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 7450 5900 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lmv324.pdf" H 7450 5900 50  0001 C CNN
+F 4 "C7972" H 7450 5900 50  0001 C CNN "LSCS Part #"
+F 5 "" H 7450 5900 50  0001 C CNN "Notes"
+F 6 "Assembly Ready" H 7450 5900 50  0001 C CNN "Assembly"
+F 7 "C7972" H 7450 5900 50  0001 C CNN "LCSC Part #"
+F 8 "C7972" H 7450 5900 50  0001 C CNN "LCSC"
+	1    7450 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R17
+U 1 1 60286B65
+P 8000 4300
+F 0 "R17" H 8059 4346 50  0000 L CNN
+F 1 "240R" H 8059 4255 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 8000 4300 50  0001 C CNN
+F 3 "~" H 8000 4300 50  0001 C CNN
+F 4 "C25221" H 8000 4300 50  0001 C CNN "LSCS Part #"
+F 5 "" H 8000 4300 50  0001 C CNN "Notes"
+F 6 "Assembly Ready" H 8000 4300 50  0001 C CNN "Assembly"
+F 7 "C25221" H 8000 4300 50  0001 C CNN "LCSC Part #"
+F 8 "C25221" H 8000 4300 50  0001 C CNN "LCSC"
+	1    8000 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R5
+U 1 1 600B05C6
+P 1950 7200
+F 0 "R5" H 2020 7246 50  0000 L CNN
+F 1 "620R" H 2020 7155 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 1880 7200 50  0001 C CNN
+F 3 "~" H 1950 7200 50  0001 C CNN
+F 4 "C23220" H 1950 7200 50  0001 C CNN "LSCS Part #"
+F 5 "" H 1950 7200 50  0001 C CNN "Notes"
+F 6 "Assembly Ready" H 1950 7200 50  0001 C CNN "Assembly"
+F 7 "C23220" H 1950 7200 50  0001 C CNN "LCSC Part #"
+F 8 "C23220" H 1950 7200 50  0001 C CNN "LCSC"
+	1    1950 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D5
+U 1 1 60096F59
+P 2350 7500
+F 0 "D5" H 2350 7300 50  0000 C CNN
+F 1 "RED" H 2350 7400 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 2350 7500 50  0001 C CNN
+F 3 "~" H 2350 7500 50  0001 C CNN
+F 4 "C84256" H 2350 7500 50  0001 C CNN "LSCS Part #"
+F 5 "" H 2350 7500 50  0001 C CNN "Notes"
+F 6 "Assembly Ready" H 2350 7500 50  0001 C CNN "Assembly"
+F 7 "C84256" H 2350 7500 50  0001 C CNN "LCSC Part #"
+F 8 "C84256" H 2350 7500 50  0001 C CNN "LCSC"
+	1    2350 7500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D4
+U 1 1 60095918
+P 1950 7500
+F 0 "D4" H 1950 7300 50  0000 C CNN
+F 1 "RED" H 1950 7400 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 1950 7500 50  0001 C CNN
+F 3 "~" H 1950 7500 50  0001 C CNN
+F 4 "C84256" H 1950 7500 50  0001 C CNN "LSCS Part #"
+F 5 "" H 1950 7500 50  0001 C CNN "Notes"
+F 6 "Assembly Ready" H 1950 7500 50  0001 C CNN "Assembly"
+F 7 "C84256" H 1950 7500 50  0001 C CNN "LCSC Part #"
+F 8 "C84256" H 1950 7500 50  0001 C CNN "LCSC"
+	1    1950 7500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x03_Odd_Even J5
+U 1 1 601A17C2
+P 9700 4700
+F 0 "J5" H 9750 5017 50  0000 C CNN
+F 1 "Conn_02x03_Odd_Even" H 9750 4926 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 9700 4700 50  0001 C CNN
+F 3 "~" H 9700 4700 50  0001 C CNN
+F 4 "DIP" H 9700 4700 50  0001 C CNN "Notes"
+F 5 "Not available for assembly" H 9700 4700 50  0001 C CNN "Assembly"
+	1    9700 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Polyfuse_Small F1
+U 1 1 60775BCD
+P 5150 3500
+F 0 "F1" V 4945 3500 50  0000 C CNN
+F 1 "500mA" V 5036 3500 50  0000 C CNN
+F 2 "Fuse:Fuse_0603_1608Metric" H 5200 3300 50  0001 L CNN
+F 3 "~" H 5150 3500 50  0001 C CNN
+F 4 "Not available for assembly" H 5150 3500 50  0001 C CNN "Assembly"
+F 5 "C210356" H 5150 3500 50  0001 C CNN "LSCS Part #"
+F 6 "C210356" H 5150 3500 50  0001 C CNN "LCSC Part #"
+F 7 "C210356" H 5150 3500 50  0001 C CNN "LCSC"
+	1    5150 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C9
+U 1 1 6068ABAB
+P 6650 6150
+F 0 "C9" H 6450 6200 50  0000 L CNN
+F 1 "0.1uF" H 6350 6100 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6650 6150 50  0001 C CNN
+F 3 "~" H 6650 6150 50  0001 C CNN
+F 4 "C14663" H 6650 6150 50  0001 C CNN "LSCS Part #"
+F 5 "Assembly Ready" H 6650 6150 50  0001 C CNN "Assembly"
+F 6 "C14663" H 6650 6150 50  0001 C CNN "LCSC Part #"
+F 7 "C14663" H 6650 6150 50  0001 C CNN "LCSC"
+	1    6650 6150
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small R4
+U 1 1 6068A23C
+P 6450 6150
+F 0 "R4" H 6509 6196 50  0000 L CNN
+F 1 "10K" H 6509 6105 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 6450 6150 50  0001 C CNN
+F 3 "~" H 6450 6150 50  0001 C CNN
+F 4 "C25804" H 6450 6150 50  0001 C CNN "LSCS Part #"
+F 5 "" H 6450 6150 50  0001 C CNN "Notes"
+F 6 "Assembly Ready" H 6450 6150 50  0001 C CNN "Assembly"
+F 7 "C25804" H 6450 6150 50  0001 C CNN "LCSC Part #"
+F 8 "C25804" H 6450 6150 50  0001 C CNN "LCSC"
+	1    6450 6150
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small R1
+U 1 1 6068913D
+P 6450 5800
+F 0 "R1" H 6509 5846 50  0000 L CNN
+F 1 "10K" H 6509 5755 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 6450 5800 50  0001 C CNN
+F 3 "~" H 6450 5800 50  0001 C CNN
+F 4 "C25804" H 6450 5800 50  0001 C CNN "LSCS Part #"
+F 5 "" H 6450 5800 50  0001 C CNN "Notes"
+F 6 "Assembly Ready" H 6450 5800 50  0001 C CNN "Assembly"
+F 7 "C25804" H 6450 5800 50  0001 C CNN "LCSC Part #"
+F 8 "C25804" H 6450 5800 50  0001 C CNN "LCSC"
+	1    6450 5800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x05_Odd_Even J4
+U 1 1 603A993E
+P 5450 6050
+F 0 "J4" V 5500 6150 50  0000 R CNN
+F 1 "Conn_02x05_Odd_Even" H 5900 5750 50  0000 R CNN
+F 2 "Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical" H 5450 6050 50  0001 C CNN
+F 3 "~" H 5450 6050 50  0001 C CNN
+F 4 "DIP" H 5450 6050 50  0001 C CNN "Notes"
+F 5 "Not available for assembly" H 5450 6050 50  0001 C CNN "Assembly"
+	1    5450 6050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x05_Odd_Even J3
+U 1 1 603A8A01
+P 4800 6050
+F 0 "J3" V 4850 6150 50  0000 R CNN
+F 1 "Conn_02x05_Odd_Even" H 5250 5750 50  0000 R CNN
+F 2 "Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical" H 4800 6050 50  0001 C CNN
+F 3 "~" H 4800 6050 50  0001 C CNN
+F 4 "DIP" H 4800 6050 50  0001 C CNN "Notes"
+F 5 "Not available for assembly" H 4800 6050 50  0001 C CNN "Assembly"
+	1    4800 6050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x05_Odd_Even J2
+U 1 1 603A7C58
+P 4150 6050
+F 0 "J2" V 4200 6150 50  0000 R CNN
+F 1 "Conn_02x05_Odd_Even" H 4600 5750 50  0000 R CNN
+F 2 "Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical" H 4150 6050 50  0001 C CNN
+F 3 "~" H 4150 6050 50  0001 C CNN
+F 4 "DIP" H 4150 6050 50  0001 C CNN "Notes"
+F 5 "Not available for assembly" H 4150 6050 50  0001 C CNN "Assembly"
+	1    4150 6050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x05_Odd_Even J1
+U 1 1 6039DA17
+P 3500 6050
+F 0 "J1" V 3550 6150 50  0000 R CNN
+F 1 "Conn_02x05_Odd_Even" H 3950 5750 50  0000 R CNN
+F 2 "Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical" H 3500 6050 50  0001 C CNN
+F 3 "~" H 3500 6050 50  0001 C CNN
+F 4 "DIP" H 3500 6050 50  0001 C CNN "Notes"
+F 5 "Not available for assembly" H 3500 6050 50  0001 C CNN "Assembly"
+	1    3500 6050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x02 J7
+U 1 1 607683B6
+P 1350 7350
+F 0 "J7" H 1400 7350 50  0000 L CNN
+F 1 "Power" H 1400 7250 50  0000 L CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 1350 7350 50  0001 C CNN
+F 3 "~" H 1350 7350 50  0001 C CNN
+F 4 "Not available for assembly" H 1350 7350 50  0001 C CNN "Assembly"
+F 5 "DIP" H 1350 7350 50  0001 C CNN "Notes"
+	1    1350 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R12
+U 1 1 605A9D6F
+P 6050 950
+F 0 "R12" H 6109 996 50  0000 L CNN
+F 1 "100K" H 6109 905 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 6050 950 50  0001 C CNN
+F 3 "~" H 6050 950 50  0001 C CNN
+F 4 "C25803" H 6050 950 50  0001 C CNN "LSCS Part #"
+F 5 "" H 6050 950 50  0001 C CNN "Notes"
+F 6 "Assembly Ready" H 6050 950 50  0001 C CNN "Assembly"
+F 7 "C25803" H 6050 950 50  0001 C CNN "LCSC Part #"
+F 8 "C25803" H 6050 950 50  0001 C CNN "LCSC"
+	1    6050 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R13
+U 1 1 605A83CD
+P 6350 950
+F 0 "R13" H 6409 996 50  0000 L CNN
+F 1 "100K" H 6409 905 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 6350 950 50  0001 C CNN
+F 3 "~" H 6350 950 50  0001 C CNN
+F 4 "C25803" H 6350 950 50  0001 C CNN "LSCS Part #"
+F 5 "" H 6350 950 50  0001 C CNN "Notes"
+F 6 "Assembly Ready" H 6350 950 50  0001 C CNN "Assembly"
+F 7 "C25803" H 6350 950 50  0001 C CNN "LCSC Part #"
+F 8 "C25803" H 6350 950 50  0001 C CNN "LCSC"
+	1    6350 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C20
+U 1 1 60641361
+P 6200 2100
+F 0 "C20" H 6292 2146 50  0000 L CNN
+F 1 "0.1uF" H 6292 2055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6200 2100 50  0001 C CNN
+F 3 "~" H 6200 2100 50  0001 C CNN
+F 4 "C14663" H 6200 2100 50  0001 C CNN "LSCS Part #"
+F 5 "Assembly Ready" H 6200 2100 50  0001 C CNN "Assembly"
+F 6 "C14663" H 6200 2100 50  0001 C CNN "LCSC Part #"
+F 7 "C14663" H 6200 2100 50  0001 C CNN "LCSC"
+	1    6200 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R7
+U 1 1 605AA899
+P 5150 950
+F 0 "R7" H 5209 996 50  0000 L CNN
+F 1 "100K" H 5209 905 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5150 950 50  0001 C CNN
+F 3 "~" H 5150 950 50  0001 C CNN
+F 4 "C25803" H 5150 950 50  0001 C CNN "LSCS Part #"
+F 5 "" H 5150 950 50  0001 C CNN "Notes"
+F 6 "Assembly Ready" H 5150 950 50  0001 C CNN "Assembly"
+F 7 "C25803" H 5150 950 50  0001 C CNN "LCSC Part #"
+F 8 "C25803" H 5150 950 50  0001 C CNN "LCSC"
+	1    5150 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R10
+U 1 1 605AA5A8
+P 5450 950
+F 0 "R10" H 5509 996 50  0000 L CNN
+F 1 "100K" H 5509 905 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5450 950 50  0001 C CNN
+F 3 "~" H 5450 950 50  0001 C CNN
+F 4 "C25803" H 5450 950 50  0001 C CNN "LSCS Part #"
+F 5 "" H 5450 950 50  0001 C CNN "Notes"
+F 6 "Assembly Ready" H 5450 950 50  0001 C CNN "Assembly"
+F 7 "C25803" H 5450 950 50  0001 C CNN "LCSC Part #"
+F 8 "C25803" H 5450 950 50  0001 C CNN "LCSC"
+	1    5450 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R11
+U 1 1 605AA211
+P 5750 950
+F 0 "R11" H 5809 996 50  0000 L CNN
+F 1 "100K" H 5809 905 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5750 950 50  0001 C CNN
+F 3 "~" H 5750 950 50  0001 C CNN
+F 4 "C25803" H 5750 950 50  0001 C CNN "LSCS Part #"
+F 5 "" H 5750 950 50  0001 C CNN "Notes"
+F 6 "Assembly Ready" H 5750 950 50  0001 C CNN "Assembly"
+F 7 "C25803" H 5750 950 50  0001 C CNN "LCSC Part #"
+F 8 "C25803" H 5750 950 50  0001 C CNN "LCSC"
+	1    5750 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Micro_SD_Card J9
+U 1 1 605A5206
+P 7400 1500
+F 0 "J9" H 7350 2217 50  0000 C CNN
+F 1 "Micro_SD_Card" H 7350 2126 50  0000 C CNN
+F 2 "Connector_Card:microSD_HC_Hirose_DM3D-SF" H 8550 1800 50  0001 C CNN
+F 3 "http://katalog.we-online.de/em/datasheet/693072010801.pdf" H 7400 1500 50  0001 C CNN
+F 4 "C719027" H 7400 1500 50  0001 C CNN "LSCS Part #"
+F 5 "" H 7400 1500 50  0001 C CNN "Notes"
+F 6 "Not available for assembly" H 7400 1500 50  0001 C CNN "Assembly"
+F 7 "C719027" H 7400 1500 50  0001 C CNN "LCSC Part #"
+F 8 "C719027" H 7400 1500 50  0001 C CNN "LCSC"
+	1    7400 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x05 J10
+U 1 1 6057FB88
+P 3950 7350
+F 0 "J10" H 4030 7392 50  0000 L CNN
+F 1 "Conn_01x05" H 4030 7301 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 3950 7350 50  0001 C CNN
+F 3 "~" H 3950 7350 50  0001 C CNN
+F 4 "DIP" H 3950 7350 50  0001 C CNN "Notes"
+F 5 "Not available for assembly" H 3950 7350 50  0001 C CNN "Assembly"
+	1    3950 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:MMBT3904 Q1
+U 1 1 60513723
+P 8050 3200
+F 0 "Q1" H 8241 3246 50  0000 L CNN
+F 1 "MMBT3904" H 8200 3150 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 8250 3125 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF" H 8050 3200 50  0001 L CNN
+F 4 "C20526" H 8050 3200 50  0001 C CNN "LSCS Part #"
+F 5 "" H 8050 3200 50  0001 C CNN "Notes"
+F 6 "Assembly Ready" H 8050 3200 50  0001 C CNN "Assembly"
+F 7 "C20526" H 8050 3200 50  0001 C CNN "LCSC Part #"
+F 8 "C20526" H 8050 3200 50  0001 C CNN "LCSC"
+	1    8050 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C21
+U 1 1 60465497
+P 7650 3200
+F 0 "C21" H 7450 3200 50  0000 L CNN
+F 1 "0.01uF" H 7350 3300 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7650 3200 50  0001 C CNN
+F 3 "~" H 7650 3200 50  0001 C CNN
+F 4 "C57112" H 7650 3200 50  0001 C CNN "LSCS Part #"
+F 5 "" H 7650 3200 50  0001 C CNN "Notes"
+F 6 "Assembly Ready" H 7650 3200 50  0001 C CNN "Assembly"
+F 7 "C57112" H 7650 3200 50  0001 C CNN "LCSC Part #"
+F 8 "C57112" H 7650 3200 50  0001 C CNN "LCSC"
+	1    7650 3200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R16
+U 1 1 60426FD9
+P 7800 3350
+F 0 "R16" H 7859 3396 50  0000 L CNN
+F 1 "10K" H 7859 3305 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 7800 3350 50  0001 C CNN
+F 3 "~" H 7800 3350 50  0001 C CNN
+F 4 "C25804" H 7800 3350 50  0001 C CNN "LSCS Part #"
+F 5 "" H 7800 3350 50  0001 C CNN "Notes"
+F 6 "Assembly Ready" H 7800 3350 50  0001 C CNN "Assembly"
+F 7 "C25804" H 7800 3350 50  0001 C CNN "LCSC Part #"
+F 8 "C25804" H 7800 3350 50  0001 C CNN "LCSC"
+	1    7800 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C15
+U 1 1 603B6994
+P 5100 4850
+F 0 "C15" H 4850 4850 50  0000 L CNN
+F 1 "10uF" H 4800 4950 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 5100 4850 50  0001 C CNN
+F 3 "~" H 5100 4850 50  0001 C CNN
+F 4 "C15850" H 5100 4850 50  0001 C CNN "LSCS Part #"
+F 5 "Assembly Ready" H 5100 4850 50  0001 C CNN "Assembly"
+F 6 "C15850" H 5100 4850 50  0001 C CNN "LCSC Part #"
+F 7 "C15850" H 5100 4850 50  0001 C CNN "LCSC"
+	1    5100 4850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C_Small C14
+U 1 1 60396AE3
+P 4950 4850
+F 0 "C14" H 4700 4850 50  0000 L CNN
+F 1 "0.1uF" H 4650 4750 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4950 4850 50  0001 C CNN
+F 3 "~" H 4950 4850 50  0001 C CNN
+F 4 "C14663" H 4950 4850 50  0001 C CNN "LSCS Part #"
+F 5 "Assembly Ready" H 4950 4850 50  0001 C CNN "Assembly"
+F 6 "C14663" H 4950 4850 50  0001 C CNN "LCSC Part #"
+F 7 "C14663" H 4950 4850 50  0001 C CNN "LCSC"
+	1    4950 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C16
+U 1 1 60396F37
+P 5300 3400
+F 0 "C16" H 5100 3450 50  0000 L CNN
+F 1 "0.01uF" H 4950 3350 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5300 3400 50  0001 C CNN
+F 3 "~" H 5300 3400 50  0001 C CNN
+F 4 "C57112" H 5300 3400 50  0001 C CNN "LSCS Part #"
+F 5 "" H 5300 3400 50  0001 C CNN "Notes"
+F 6 "Assembly Ready" H 5300 3400 50  0001 C CNN "Assembly"
+F 7 "C57112" H 5300 3400 50  0001 C CNN "LCSC Part #"
+F 8 "C57112" H 5300 3400 50  0001 C CNN "LCSC"
+	1    5300 3400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:USB_B_Micro J8
+U 1 1 602B9496
+P 4700 4000
+F 0 "J8" H 4757 4467 50  0000 C CNN
+F 1 "USB_B_Micro" H 4757 4376 50  0000 C CNN
+F 2 "Connector_USB:USB_Micro-AB_Molex_47590-0001" H 4850 3950 50  0001 C CNN
+F 3 "~" H 4850 3950 50  0001 C CNN
+F 4 "Not available for assembly" H 4700 4000 50  0001 C CNN "Assembly"
+F 5 "C404969" H 4700 4000 50  0001 C CNN "LSCS Part #"
+F 6 "C404969" H 4700 4000 50  0001 C CNN "LCSC Part #"
+F 7 "C404969" H 4700 4000 50  0001 C CNN "LCSC"
+	1    4700 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R15
+U 1 1 602890E3
+P 7650 3700
+F 0 "R15" H 7709 3746 50  0000 L CNN
+F 1 "240R" H 7709 3655 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 7650 3700 50  0001 C CNN
+F 3 "~" H 7650 3700 50  0001 C CNN
+F 4 "C25221" H 7650 3700 50  0001 C CNN "LSCS Part #"
+F 5 "" H 7650 3700 50  0001 C CNN "Notes"
+F 6 "Assembly Ready" H 7650 3700 50  0001 C CNN "Assembly"
+F 7 "C25221" H 7650 3700 50  0001 C CNN "LCSC Part #"
+F 8 "C25221" H 7650 3700 50  0001 C CNN "LCSC"
+	1    7650 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R14
+U 1 1 6028837B
+P 7650 3600
+F 0 "R14" H 7709 3646 50  0000 L CNN
+F 1 "240R" H 7709 3555 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 7650 3600 50  0001 C CNN
+F 3 "~" H 7650 3600 50  0001 C CNN
+F 4 "C25221" H 7650 3600 50  0001 C CNN "LSCS Part #"
+F 5 "" H 7650 3600 50  0001 C CNN "Notes"
+F 6 "Assembly Ready" H 7650 3600 50  0001 C CNN "Assembly"
+F 7 "C25221" H 7650 3600 50  0001 C CNN "LCSC Part #"
+F 8 "C25221" H 7650 3600 50  0001 C CNN "LCSC"
+	1    7650 3600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D2
+U 1 1 602643B2
+P 7750 4700
+F 0 "D2" H 7750 4500 50  0000 C CNN
+F 1 "RED" H 7750 4600 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 7750 4700 50  0001 C CNN
+F 3 "~" H 7750 4700 50  0001 C CNN
+F 4 "C84256" H 7750 4700 50  0001 C CNN "LSCS Part #"
+F 5 "" H 7750 4700 50  0001 C CNN "Notes"
+F 6 "Assembly Ready" H 7750 4700 50  0001 C CNN "Assembly"
+F 7 "C84256" H 7750 4700 50  0001 C CNN "LCSC Part #"
+F 8 "C84256" H 7750 4700 50  0001 C CNN "LCSC"
+	1    7750 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D1
+U 1 1 60262642
+P 7750 4500
+F 0 "D1" H 7743 4717 50  0000 C CNN
+F 1 "BLUE" H 7743 4626 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 7750 4500 50  0001 C CNN
+F 3 "~" H 7750 4500 50  0001 C CNN
+F 4 "C72041" H 7750 4500 50  0001 C CNN "LSCS Part #"
+F 5 "" H 7750 4500 50  0001 C CNN "Notes"
+F 6 "Assembly Ready" H 7750 4500 50  0001 C CNN "Assembly"
+F 7 "C72041" H 7750 4500 50  0001 C CNN "LCSC Part #"
+F 8 "C72041" H 7750 4500 50  0001 C CNN "LCSC"
+	1    7750 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C10
+U 1 1 600EC2B5
+P 2800 6350
+F 0 "C10" H 2915 6396 50  0000 L CNN
+F 1 "1uF" H 2915 6305 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2838 6200 50  0001 C CNN
+F 3 "~" H 2800 6350 50  0001 C CNN
+F 4 "C15849" H 2800 6350 50  0001 C CNN "LSCS Part #"
+F 5 "" H 2800 6350 50  0001 C CNN "Notes"
+F 6 "Assembly Ready" H 2800 6350 50  0001 C CNN "Assembly"
+F 7 "C15849" H 2800 6350 50  0001 C CNN "LCSC Part #"
+F 8 "C15849" H 2800 6350 50  0001 C CNN "LCSC"
+	1    2800 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 600C14D9
+P 2050 6000
+F 0 "R3" H 2120 6046 50  0000 L CNN
+F 1 "10k" H 2120 5955 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 1980 6000 50  0001 C CNN
+F 3 "~" H 2050 6000 50  0001 C CNN
+F 4 "C25804" H 2050 6000 50  0001 C CNN "LSCS Part #"
+F 5 "" H 2050 6000 50  0001 C CNN "Notes"
+F 6 "Assembly Ready" H 2050 6000 50  0001 C CNN "Assembly"
+F 7 "C25804" H 2050 6000 50  0001 C CNN "LCSC Part #"
+F 8 "C25804" H 2050 6000 50  0001 C CNN "LCSC"
+	1    2050 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 600C0127
+P 1700 6000
+F 0 "R2" H 1770 6046 50  0000 L CNN
+F 1 "10k" H 1770 5955 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 1630 6000 50  0001 C CNN
+F 3 "~" H 1700 6000 50  0001 C CNN
+F 4 "C25804" H 1700 6000 50  0001 C CNN "LSCS Part #"
+F 5 "" H 1700 6000 50  0001 C CNN "Notes"
+F 6 "Assembly Ready" H 1700 6000 50  0001 C CNN "Assembly"
+F 7 "C25804" H 1700 6000 50  0001 C CNN "LCSC Part #"
+F 8 "C25804" H 1700 6000 50  0001 C CNN "LCSC"
+	1    1700 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Crystal Crystal1
+U 1 1 600A0872
+P 3350 3750
+F 0 "Crystal1" V 3396 3619 50  0000 R CNN
+F 1 "5MHz" V 3305 3619 50  0000 R CNN
+F 2 "Crystal:Crystal_HC49-U_Vertical" H 3350 3750 50  0001 C CNN
+F 3 "~" H 3350 3750 50  0001 C CNN
+F 4 "Not available for assembly" H 3350 3750 50  0001 C CNN "Assembly"
+F 5 "C2198" H 3350 3750 50  0001 C CNN "LSCS Part #"
+F 6 "C2198" H 3350 3750 50  0001 C CNN "LCSC Part #"
+F 7 "C2198" H 3350 3750 50  0001 C CNN "LCSC"
+	1    3350 3750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 6004F8D8
+P 2900 2950
+F 0 "C1" H 3015 2996 50  0000 L CNN
+F 1 "0.1uF" H 3015 2905 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2938 2800 50  0001 C CNN
+F 3 "~" H 2900 2950 50  0001 C CNN
+F 4 "C14663" H 2900 2950 50  0001 C CNN "LSCS Part #"
+F 5 "Assembly Ready" H 2900 2950 50  0001 C CNN "Assembly"
+F 6 "C14663" H 2900 2950 50  0001 C CNN "LCSC Part #"
+F 7 "C14663" H 2900 2950 50  0001 C CNN "LCSC"
+	1    2900 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C2
+U 1 1 60050504
+P 3250 2950
+F 0 "C2" H 3365 2996 50  0000 L CNN
+F 1 "0.1uF" H 3365 2905 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3288 2800 50  0001 C CNN
+F 3 "~" H 3250 2950 50  0001 C CNN
+F 4 "C14663" H 3250 2950 50  0001 C CNN "LSCS Part #"
+F 5 "Assembly Ready" H 3250 2950 50  0001 C CNN "Assembly"
+F 6 "C14663" H 3250 2950 50  0001 C CNN "LCSC Part #"
+F 7 "C14663" H 3250 2950 50  0001 C CNN "LCSC"
+	1    3250 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C4
+U 1 1 60051D54
+P 4000 2950
+F 0 "C4" H 4115 2996 50  0000 L CNN
+F 1 "0.1uF" H 4115 2905 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4038 2800 50  0001 C CNN
+F 3 "~" H 4000 2950 50  0001 C CNN
+F 4 "C14663" H 4000 2950 50  0001 C CNN "LSCS Part #"
+F 5 "Assembly Ready" H 4000 2950 50  0001 C CNN "Assembly"
+F 6 "C14663" H 4000 2950 50  0001 C CNN "LCSC Part #"
+F 7 "C14663" H 4000 2950 50  0001 C CNN "LCSC"
+	1    4000 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C3
+U 1 1 6005100A
+P 3600 2950
+F 0 "C3" H 3715 2996 50  0000 L CNN
+F 1 "0.1uF" H 3715 2905 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3638 2800 50  0001 C CNN
+F 3 "~" H 3600 2950 50  0001 C CNN
+F 4 "C14663" H 3600 2950 50  0001 C CNN "LSCS Part #"
+F 5 "Assembly Ready" H 3600 2950 50  0001 C CNN "Assembly"
+F 6 "C14663" H 3600 2950 50  0001 C CNN "LCSC Part #"
+F 7 "C14663" H 3600 2950 50  0001 C CNN "LCSC"
+	1    3600 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L MCU_Parallax:P8X32A-Q44 U1
+U 1 1 60024287
+P 1850 3850
+F 0 "U1" H 2200 4850 50  0000 C CNN
+F 1 "P8X32A-Q44" H 1850 3850 50  0000 C CNN
+F 2 "Package_QFP:LQFP-44_10x10mm_P0.8mm" H 1850 5050 50  0001 C CNN
+F 3 "https://www.parallax.com/sites/default/files/downloads/P8X32A-Propeller-Datasheet-v1.4.0_0.pdf" H 1850 3850 50  0001 C CNN
+F 4 "Not in LSCS" H 1850 3850 50  0001 C CNN "Notes"
+F 5 "Not available for assembly" H 1850 3850 50  0001 C CNN "Assembly"
+	1    1850 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x08 P7
+U 1 1 56D73F2C
+P 9950 3700
+F 0 "P7" H 9950 4100 50  0000 C CNN
+F 1 "Communication" V 10050 3700 50  0001 C CNN
+F 2 "Socket_Arduino_Mega:Socket_Strip_Arduino_1x08" H 9950 3700 50  0001 C CNN
+F 3 "" H 9950 3700 50  0000 C CNN
+F 4 "DIP" H 9950 3700 50  0001 C CNN "Notes"
+F 5 "Not available for assembly" H 9950 3700 50  0001 C CNN "Assembly"
+	1    9950 3700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x08 P4
+U 1 1 56D73A0E
+P 9550 3700
+F 0 "P4" H 9550 4100 50  0000 C CNN
+F 1 "Analog" V 9650 3700 50  0001 C CNN
+F 2 "Socket_Arduino_Mega:Socket_Strip_Arduino_1x08" H 9550 3700 50  0001 C CNN
+F 3 "" H 9550 3700 50  0000 C CNN
+F 4 "DIP" H 9550 3700 50  0001 C CNN "Notes"
+F 5 "Not available for assembly" H 9550 3700 50  0001 C CNN "Assembly"
+	1    9550 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x08 P3
+U 1 1 56D72F1C
+P 9550 2750
+F 0 "P3" H 9550 3150 50  0000 C CNN
+F 1 "Analog" V 9650 2750 50  0001 C CNN
+F 2 "Socket_Arduino_Mega:Socket_Strip_Arduino_1x08" H 9550 2750 50  0001 C CNN
+F 3 "" H 9550 2750 50  0000 C CNN
+F 4 "DIP" H 9550 2750 50  0001 C CNN "Notes"
+F 5 "Not available for assembly" H 9550 2750 50  0001 C CNN "Assembly"
+	1    9550 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x10 P5
+U 1 1 56D72368
+P 9950 1550
+F 0 "P5" H 9950 2050 50  0000 C CNN
+F 1 "PWM" V 10050 1550 50  0001 C CNN
+F 2 "Socket_Arduino_Mega:Socket_Strip_Arduino_1x10" H 9950 1550 50  0001 C CNN
+F 3 "" H 9950 1550 50  0000 C CNN
+F 4 "DIP" H 9950 1550 50  0001 C CNN "Notes"
+F 5 "Not available for assembly" H 9950 1550 50  0001 C CNN "Assembly"
+	1    9950 1550
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x08 P2
+U 1 1 56D71773
+P 9550 1650
+F 0 "P2" H 9550 2050 50  0000 C CNN
+F 1 "Power" V 9650 1650 50  0001 C CNN
+F 2 "Socket_Arduino_Mega:Socket_Strip_Arduino_1x08" H 9550 1650 50  0001 C CNN
+F 3 "" H 9550 1650 50  0000 C CNN
+F 4 "DIP" H 9550 1650 50  0001 C CNN "Notes"
+F 5 "Not available for assembly" H 9550 1650 50  0001 C CNN "Assembly"
+	1    9550 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 P13
+U 1 1 56D711F0
+P 11050 650
+F 0 "P13" V 11150 650 31  0000 C CNN
+F 1 "CONN_01X01" V 11150 650 50  0001 C CNN
+F 2 "Socket_Arduino_Mega:Arduino_1pin" H 11050 650 50  0001 C CNN
+F 3 "" H 11050 650 50  0000 C CNN
+F 4 "DIP" H 11050 650 50  0001 C CNN "Notes"
+F 5 "Not available for assembly" H 11050 650 50  0001 C CNN "Assembly"
+	1    11050 650 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 P12
+U 1 1 56D711A2
+P 10950 650
+F 0 "P12" V 11050 650 31  0000 C CNN
+F 1 "CONN_01X01" V 11050 650 50  0001 C CNN
+F 2 "Socket_Arduino_Mega:Arduino_1pin" H 10950 650 50  0001 C CNN
+F 3 "" H 10950 650 50  0000 C CNN
+F 4 "DIP" H 10950 650 50  0001 C CNN "Notes"
+F 5 "Not available for assembly" H 10950 650 50  0001 C CNN "Assembly"
+	1    10950 650 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 P11
+U 1 1 56D70D2C
+P 10850 650
+F 0 "P11" V 10950 650 31  0000 C CNN
+F 1 "CONN_01X01" V 10950 650 50  0001 C CNN
+F 2 "Socket_Arduino_Mega:Arduino_1pin" H 10850 650 50  0001 C CNN
+F 3 "" H 10850 650 50  0000 C CNN
+F 4 "DIP" H 10850 650 50  0001 C CNN "Notes"
+F 5 "Not available for assembly" H 10850 650 50  0001 C CNN "Assembly"
+	1    10850 650 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 P10
+U 1 1 56D70CE6
+P 10750 650
+F 0 "P10" V 10850 650 31  0000 C CNN
+F 1 "CONN_01X01" V 10850 650 50  0001 C CNN
+F 2 "Socket_Arduino_Mega:Arduino_1pin" H 10750 650 50  0001 C CNN
+F 3 "" H 10750 650 50  0000 C CNN
+F 4 "DIP" H 10750 650 50  0001 C CNN "Notes"
+F 5 "Not available for assembly" H 10750 650 50  0001 C CNN "Assembly"
+	1    10750 650 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 P9
+U 1 1 56D70C9B
+P 10650 650
+F 0 "P9" V 10750 650 31  0000 C CNN
+F 1 "CONN_01X01" V 10750 650 50  0001 C CNN
+F 2 "Socket_Arduino_Mega:Arduino_1pin" H 10650 650 50  0001 C CNN
+F 3 "" H 10650 650 50  0000 C CNN
+F 4 "DIP" H 10650 650 50  0001 C CNN "Notes"
+F 5 "Not available for assembly" H 10650 650 50  0001 C CNN "Assembly"
+	1    10650 650 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 P8
+U 1 1 56D70B71
+P 10550 650
+F 0 "P8" V 10650 650 31  0000 C CNN
+F 1 "CONN_01X01" V 10650 650 50  0001 C CNN
+F 2 "Socket_Arduino_Mega:Arduino_1pin" H 10550 650 50  0001 C CNN
+F 3 "" H 10550 650 50  0000 C CNN
+F 4 "DIP" H 10550 650 50  0001 C CNN "Notes"
+F 5 "Not available for assembly" H 10550 650 50  0001 C CNN "Assembly"
+	1    10550 650 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R18
+U 1 1 600B1573
+P 2750 7200
+F 0 "R18" H 2820 7246 50  0000 L CNN
+F 1 "100R" H 2820 7155 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2680 7200 50  0001 C CNN
+F 3 "~" H 2750 7200 50  0001 C CNN
+F 4 "C22775" H 2750 7200 50  0001 C CNN "LSCS Part #"
+F 5 "" H 2750 7200 50  0001 C CNN "Notes"
+F 6 "Assembly Ready" H 2750 7200 50  0001 C CNN "Assembly"
+F 7 "C22775" H 2750 7200 50  0001 C CNN "LCSC Part #"
+F 8 "C22775" H 2750 7200 50  0001 C CNN "LCSC"
+	1    2750 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R6
+U 1 1 600B109C
+P 2350 7200
+F 0 "R6" H 2420 7246 50  0000 L CNN
+F 1 "240R" H 2420 7155 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2280 7200 50  0001 C CNN
+F 3 "~" H 2350 7200 50  0001 C CNN
+F 4 "C25221" H 2350 7200 50  0001 C CNN "LSCS Part #"
+F 5 "" H 2350 7200 50  0001 C CNN "Notes"
+F 6 "Assembly Ready" H 2350 7200 50  0001 C CNN "Assembly"
+F 7 "C25221" H 2350 7200 50  0001 C CNN "LCSC Part #"
+F 8 "C25221" H 2350 7200 50  0001 C CNN "LCSC"
+	1    2350 7200
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
